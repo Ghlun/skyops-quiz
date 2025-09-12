@@ -9,13 +9,14 @@
   <link rel="icon" href="icons/192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="icons/192.png" />
 
-  <!-- Tailwind via CDN (runtime) -->
+  <!-- Tailwind (runtime) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- React + ReactDOM via CDN -->
+  <!-- React 18 + ReactDOM -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <!-- Babel for in-browser JSX transform -->
+  <!-- Babel (so we can write JSX in this file) -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
   <style>
     body { background:#0f172a; color:#e2e8f0; }
   </style>
@@ -24,276 +25,128 @@
   <div id="root"></div>
 
   <script type="text/babel">
-
-const { useState, useMemo } = React;
+const { useState, useMemo, useEffect } = React;
 
 function DroneQuizApp() {
-  const [topic, setTopic] = useState("ALL"); // ALL | A1A3 | A2
-  const [search, setSearch] = useState("");
+  // --- App state ---
+  const [topic, setTopic] = useState("ALL");      // ALL | A1A3 | A2
   const [shuffle, setShuffle] = useState(true);
-  const [answers, setAnswers] = useState({}); // { [id]: selectedIndex }
-  const [showOnlyWrong, setShowOnlyWrong] = useState(false);
-  const [quizSize, setQuizSize] = useState(0); // 0 = alla, 10/20/30 = begränsat urval
-  const [activeIds, setActiveIds] = useState(null); // null = inte startat
+  const [quizSize, setQuizSize] = useState(10);   // 10/20/30
+  const [answers, setAnswers] = useState({});     // id -> selectedIndex
+  const [activeIds, setActiveIds] = useState(null);
+  const [currentIdx, setCurrentIdx] = useState(0);
   const [score, setScore] = useState(0);
   const [complete, setComplete] = useState(false);
 
-  const questions = useMemo(() => {
-    const bank = [
-      { id:"K1-1", topic:"A1A3", text:"Vad betyder VLOS i drönarsammanhang?",
-        options:["Att du får flyga bortom synhåll om du har spotter","Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel","Att videolänken (FPV) fungerar korrekt","Att drönaren alltid delar position via Remote ID"],
-        correctIndex:1, ref:"Kap 5.3", expl:"VLOS = Visual Line Of Sight. Du ska kunna se drönaren hela tiden utan kikare." },
-      { id:"K1-2", topic:"ALL", text:"Vilket påstående om situationsmedvetenhet är mest korrekt?",
-        options:["Att du alltid kan förlita dig på RTH","Att du kontinuerligt uppfattar, förstår och förutser vad som händer i och runt operationsområdet","Att endast väderleken avgör din beslutsprocess","Att geostaket ersätter manuell riskbedömning"],
-        correctIndex:1, ref:"Kap 1", expl:"Situationsmedvetenhet = uppfatta–förstå–förutse." },
-      { id:"K1-3", topic:"ALL", text:"Vilket sinne är viktigast vid drönarflygning enligt materialet?",
-        options:["Hörseln","Synen","Luktsinnet","Smaksinnet"], correctIndex:1, ref:"Kap 4.5", expl:"Synen är primär för VLOS och konfliktupptäckt." },
-      { id:"K1-4", topic:"ALL", text:"Varför ska du undvika att lyssna på musik i hörlurar när du flyger?",
-        options:["Det kan störa GPS","Det kan försvåra uppfattning av andra luftfarkoster och varningsljud","Det är förbjudet enligt EU","Det drar mer batteri"], correctIndex:1, ref:"Kap 4.6", expl:"Hörseln hjälper dig uppfatta annan trafik och varningar." },
+  // --- Timer (prov-läge) ---
+  const [useTimer, setUseTimer] = useState(true);
+  const [timeLeft, setTimeLeft] = useState(0);    // seconds
 
-      { id:"K2-1", topic:"ALL", text:"Vad används NOTAM till?",
-        options:["Att beställa väder","Att publicera tillfälliga meddelanden som påverkar flygverksamhet","Att registrera operatörer","Att uppdatera manualer"],
-        correctIndex:1, ref:"Kap 2.3 NOTAM", expl:"NOTAM = tillfälliga/akuta meddelanden som påverkar flygning." },
-      { id:"K2-2", topic:"ALL", text:"Vilken publikation innehåller varaktig, väsentlig flyginformation?",
-        options:["AIP","AIP SUP","SIGMET","TAF"], correctIndex:0, ref:"Kap 2.3 AIP", expl:"AIP = beständig info. AIP SUP = supplement." },
-      { id:"K2-3", topic:"ALL", text:"Vad är AIP SUP?",
-        options:["Ett supplement med tillfälliga förändringar i AIP","Karta över skyddad natur","Verktyg för Remote ID","Förteckning över U-space-tjänster"],
-        correctIndex:0, ref:"Kap 2.3", expl:"AIP SUP beskriver tillfälliga/långvariga men icke permanenta ändringar." },
-      { id:"K2-4", topic:"ALL", text:"Vilken svensk onlinetjänst visar drönarrelevant luftrumsinfo?",
-        options:["SMHI","LFV Drönarkarta","Lantmäteriets fastighetskarta","Transportstyrelsens fordonskarta"],
-        correctIndex:1, ref:"Kap 2.3", expl:"LFV Drönarkarta visar luftrum och kontaktvägar." },
-      { id:"K2-5", topic:"ALL", text:"Vilken webbtjänst visar skyddad natur?",
-        options:["LFV drönarkarta","Naturvårdsverkets skyddad natur","Lantmäteriets Min karta","U-space central"],
-        correctIndex:1, ref:"Kap 2.3", expl:"Naturvårdsverkets karta visar nationalparker/reservat." },
-      { id:"K2-6", topic:"ALL", text:"Vad är ett D-område (Danger)?",
-        options:["Permanent förbjudet område","Område med farlig verksamhet där luftfart bör iaktta försiktighet","Tillfälligt restriktionsområde","Kontrollerad luft"],
-        correctIndex:1, ref:"Kap 2.1", expl:"Danger = farlig verksamhet (t.ex. skjutning)." },
-      { id:"K2-7", topic:"ALL", text:"Vad är ett R-område (Restricted)?",
-        options:["Område med restriktioner – tillträde kan vara förbjudet eller begränsat","Farligt väderområde","Drönarkorridor","Permanent kontrollerad luft"],
-        correctIndex:0, ref:"Kap 2.1", expl:"Restricted kan kräva tillstånd/koordination." },
-      { id:"K2-8", topic:"ALL", text:"CTR står för…",
-        options:["Control Tower Region","Control Terminal Range","Control Zone","Controlled Terrain"],
-        correctIndex:2, ref:"Kap 2.1", expl:"CTR = kontrollerad luftrumszon kring flygplats." },
-      { id:"K2-9", topic:"ALL", text:"Vilket påstående om UAS-zoner stämmer?",
-        options:["Visas endast i drönar-appen","Kan vara juridiskt bindande och publiceras via nationella källor","Finns bara i U-space","Gäller inte under 120 m"],
-        correctIndex:1, ref:"Kap 2.2 UAS-zoner", expl:"Kontrollera officiella källor (LFV m.fl.)." },
+  // --- External 250-question bank ---
+  const [externalQs, setExternalQs] = useState([]);
+  const [extLoaded, setExtLoaded] = useState(false);
 
-      { id:"K3-1", topic:"A1A3", text:"Vilken maxhöjd gäller normalt i öppen kategori?",
-        options:["60 m AGL","90 m AGL","120 m AGL","150 m AGL"], correctIndex:2, ref:"Kap 3", expl:"Standardgränsen är 120 m AGL." },
-      { id:"K3-2", topic:"A1A3", text:"Vilka drönare hör typiskt till A1?",
-        options:["C0/C1 och hemmabyggen under 900 g","C2 upp till 4 kg","C3/C4 upp till 25 kg","Endast C0 under 150 g"],
-        correctIndex:0, ref:"Kap 3.3", expl:"A1: lättare drönare, aldrig över folksamling." },
-      { id:"K3-3", topic:"A2", text:"Vad kännetecknar A2-flygning?",
-        options:["Flygning över folksamling","C2 upp till 4 kg, aldrig över icke-medverkande, nära horisontellt","Endast C1 nära människor","Endast inomhus"],
-        correctIndex:1, ref:"Kap 3.3 A2", expl:"A2: 30 m (eller 5 m med låghastighetsläge)." },
-      { id:"K3-4", topic:"A1A3", text:"Vad gäller i A3?",
-        options:["Får flyga över enstaka personer","Minst 150 m från bebyggelse och aldrig nära icke-medverkande","Får flyga över folksamling","Inga avståndskrav"],
-        correctIndex:1, ref:"Kap 3.3 A3", expl:"A3 = långt från människor och bebyggelse." },
-      { id:"K3-5", topic:"ALL", text:"Vad måste C1–C3-drönare ha?",
-        options:["Endast geostaket","Direkt fjärridentifiering och geomedvetenhet","ADS-B sändare","Fallskärm"],
-        correctIndex:1, ref:"Kap 3.3 C-krav", expl:"Remote ID + geo-awareness för nyare C1–C3." },
-      { id:"K3-7", topic:"ALL", text:"Krav för fjärridentifiering (Remote ID) i öppen kategori?",
-        options:["Endast över 120 m","Gäller för C1–C3 efter 1 juli 2020","Gäller bara i A2","Gäller inte i Sverige"],
-        correctIndex:1, ref:"Kap 3.3", expl:"Direkt fjärridentifiering enligt C-märkningen." },
-      { id:"K3-8", topic:"A1A3", text:"A1 tillåter flygning…",
-        options:["över folksamling","nära människor men inte över folksamling (med begränsningar)","endast i inhägnat område","endast inomhus"],
-        correctIndex:1, ref:"Kap 3.3 A1", expl:"Enstaka personer kan överflygas med villkor, aldrig folksamling." },
-      { id:"K3-9", topic:"A2", text:"A2 kräver vanligen…",
-        options:["C2, kompetens A2 och 30 m/5 m","C0 och inget prov","Alltid ATS-tillstånd","Endast inhägnat fält"],
-        correctIndex:0, ref:"Kap 3.3 A2", expl:"C2-drönare, A2-kompetens, avståndsregler." },
-      { id:"K3-10", topic:"A1A3", text:"I A3 ska du…",
-        options:["hålla minst 150 m från bebyggelse och personer","flyga över park med många personer","bara hålla 30 m","inte behöva VLOS"],
-        correctIndex:0, ref:"Kap 3.3 A3", expl:"A3: stort avstånd till människor/bebyggelse." },
-
-      { id:"K4-1", topic:"ALL", text:"Varför nolltolerans mot alkohol?",
-        options:["Annars stängs videolänken","Omdöme/reaktion/riskbedömning försämras","GPS störs","Ingen påverkan"],
-        correctIndex:1, ref:"Kap 4.2", expl:"Även låg påverkan sänker säkerhetsmarginaler." },
-      { id:"K4-2", topic:"ALL", text:"Vanligt tecken på trötthet?",
-        options:["Ökat blodtryck","Pulsfall","Mikrosömn","Ökad handsvett"],
-        correctIndex:2, ref:"Kap 4.4", expl:"Mikrosömn i krävande moment är farligt." },
-      { id:"K4-3", topic:"ALL", text:"Hur kan negativt grupptryck påverka?",
-        options:["Du blir alltid mer försiktig","Du kan pressas till onödiga risker","Du ignorerar regler p.g.a. automation","Påverkar aldrig"],
-        correctIndex:1, ref:"Kap 4.7", expl:"Stå emot press – håll reglerna." },
-      { id:"K4-4", topic:"ALL", text:"Risk med överdriven automation?",
-        options:["Bättre manuell flygning","Överförtroende och sämre övervakning","Alltid högre säkerhet","Lägre batteriförbrukning"],
-        correctIndex:1, ref:"Kap 4.9", expl:"Automation kräver aktiv övervakning." },
-      { id:"K4-5", topic:"ALL", text:"Vilket påstående om stress stämmer bäst?",
-        options:["Stress förbättrar alltid prestation","Stress kan snäva in uppmärksamhet och sänka omdömet","Stress har ingen effekt","Stress elimineras genom automation"],
-        correctIndex:1, ref:"Kap 4.1", expl:"Stress påverkar perception/minne/beslut." },
-      { id:"K4-6", topic:"ALL", text:"Mediciner kan…",
-        options:["inte påverka flygning","påverka reaktion och uppmärksamhet – följ läkarens råd","göra dig immun mot trötthet","alltid förbättra fokus"],
-        correctIndex:1, ref:"Kap 4.3", expl:"Flyg inte om du är påverkad." },
-      { id:"K4-7", topic:"ALL", text:"Perifert seende är viktigt för att…",
-        options:["läsa instrument","upptäcka rörelser/konflikter utanför fokus","förbättra GPS","se bättre i mörker"],
-        correctIndex:1, ref:"Kap 4.5", expl:"Hjälper dig upptäcka andra luftfartyg i tid." },
-
-      { id:"K5-1", topic:"ALL", text:"Vad hör INTE till normal förstartskontroll?",
-        options:["Kontroll av propellrar","Batterinivåer och RTH","Kontrollera NOTAM/AIP","Kalibrera kompass/IMU inför varje flygning"],
-        correctIndex:3, ref:"Kap 5.2", expl:"Kalibrera endast vid indikation/miljöbyte." },
-      { id:"K5-2", topic:"ALL", text:"Bemannat luftfartyg närmar sig – åtgärd?",
-        options:["Stig till maxhöjd","Fortsätt som vanligt","Väj/landa bort från konfliktytan","Stäng av fjärrkontrollen"],
-        correctIndex:2, ref:"Kap 5.3", expl:"Du är väjningsskyldig." },
-      { id:"K5-3", topic:"ALL", text:"Bra skäl att avbryta flygning?",
-        options:["Vindökning, tappad VLOS, oväntade personer","Tillfälligt svag video men VLOS","Låg sol","Byta ND-filter"],
-        correctIndex:0, ref:"Kap 5.3", expl:"Avsluta kontrollerat när risk uppstår." },
-      { id:"K5-4", topic:"ALL", text:"Vad är smart efter flygning?",
-        options:["Inget","Efterkontroll, logg, inspektera prop/batterier","Töm batteri till 0%","Kalibrera allt"],
-        correctIndex:1, ref:"Kap 5.4–5.5", expl:"Efterkontroll och loggning bygger säker vana." },
-      { id:"K5-5", topic:"ALL", text:"Dokument som bör finnas vid operation?",
-        options:["Pass och körkort","Manual, checklista, drönarkort/registrering, ev. tillstånd","Endast laddare","Endast kamera-manual"],
-        correctIndex:1, ref:"Kap 5.1–5.2", expl:"Ha nödvändig dokumentation nära till hands." },
-      { id:"K5-6", topic:"ALL", text:"Bra start/landningsplats innebär…",
-        options:["så nära människor som möjligt","jämn yta, fri från hinder, med alternativ landningsyta","högt gräs","under träd"],
-        correctIndex:1, ref:"Kap 5.2", expl:"Minska risk vid start/landning." },
-      { id:"K5-7", topic:"ALL", text:"Magnetkompassvarning – vad gör du?",
-        options:["fortsätt flyga","flyg baklänges","flytta från störkällan och kalibrera vid behov","stäng av GNSS"],
-        correctIndex:2, ref:"Kap 5.2", expl:"Åtgärda miljöpåverkan först." },
-      { id:"K5-8", topic:"ALL", text:"Minimicheck vid batterihantering?",
-        options:["Lagra alltid 100%","Förvärm i kyla, lagra 30–60%, inspektera efter flygning","Djupurladda till 0%","Blandladda olika fabrikat"],
-        correctIndex:1, ref:"Kap 5.5", expl:"Rätt hantering ökar säkerheten." },
-
-      { id:"K6-1", topic:"ALL", text:"Syfte med låghastighetsläge i A2?",
-        options:["Möjliggör över folksamling","Minskar avstånd till 5 m i vissa fall","Ökar maxhöjd","Krävs för A3"],
-        correctIndex:1, ref:"Kap 3.3 A2", expl:"Med låghastighetsläge kan minimiavståndet bli 5 m." },
-      { id:"K6-2", topic:"ALL", text:"Typisk nödfunktion vid länkbortfall?",
-        options:["Return-To-Home","ADS-B IN","Hyperlapse","ND-filter"],
-        correctIndex:0, ref:"Kap 6.2", expl:"RTH hjälper drönaren återvända." },
-      { id:"K6-3", topic:"ALL", text:"RTH-hemhöjd bör…",
-        options:["alltid vara 20 m","anpassas efter hinder","vara 120 m per default","inte användas"],
-        correctIndex:1, ref:"Kap 6.2 RTH", expl:"Sätt RTH-höjd över högsta hinder." },
-      { id:"K6-4", topic:"ALL", text:"Geo-awareness varnar för…",
-        options:["låg batteri","områdesrestriktioner/geostaket","svag video","varm gimbal"],
-        correctIndex:1, ref:"Kap 2.2–6.1", expl:"Hjälper undvika restriktionsintrång." },
-
-      { id:"K7-1", topic:"ALL", text:"När kan spridning kräva tillstånd?",
-        options:["Vid skyddsvärd geografisk information","När horisonten saknas","I privat hem","Aldrig"],
-        correctIndex:0, ref:"Kap 7.2", expl:"Spridningstillstånd kan krävas." },
-      { id:"K7-2", topic:"ALL", text:"Exempel på undantag där spridning kan vara tillåten?",
-        options:["Offentliga platser m.m. (med GDPR-hänsyn)","Militära skyddsobjekt","Kärnkraftverk","Flygplatsers kontrollerade zoner"],
-        correctIndex:0, ref:"Kap 7.2", expl:"Kolla undantag hos Lantmäteriet, beakta GDPR." },
-      { id:"K7-3", topic:"ALL", text:"GDPR-aspekt vid inspelning av personer?",
-        options:["Inte relevant","Personuppgifter kan förekomma – välj rätt rättslig grund/ändamål och minimera","Gäller bara >250 anställda","Bilder är aldrig personuppgift"],
-        correctIndex:1, ref:"Kap 7.1", expl:"Identifierbara personer = personuppgift." },
-      { id:"K7-4", topic:"ALL", text:"Spridningstillstånd hanteras av…",
-        options:["Transportstyrelsen","Lantmäteriet/Sjöfartsverket","LFV","SMHI"],
-        correctIndex:1, ref:"Kap 7.2", expl:"Prövas av berörd myndighet." },
-
-      { id:"K8-1", topic:"ALL", text:"När krävs ansvarsförsäkring?",
-        options:["Endast A2","Under 250 g","Över 20 kg (rekommenderas i övrigt)","Aldrig"],
-        correctIndex:2, ref:"Kap 8", expl:">20 kg = krav. Rekommenderas i övrigt." },
-      { id:"K8-2", topic:"ALL", text:"Råd vid transportskada-risk?",
-        options:["Lita på viktbaserad ersättning","Teckna transportförsäkring/säkerställ företagsförsäkring","Stäng av Remote ID","Deklarera farligt gods"],
-        correctIndex:1, ref:"Kap 8.3–8.4", expl:"Standardersättning räcker sällan." },
-      { id:"K8-3", topic:"ALL", text:"Varför kan hemförsäkring vara otillräcklig?",
-        options:["Täcker alltid kommersiellt","Täcker inte kommersiell verksamhet/produktansvar","Täcker alltid transport","Täcker alltid >20 kg"],
-        correctIndex:1, ref:"Kap 8", expl:"Företags/specialförsäkring behövs ofta." },
-
-      { id:"K9-1", topic:"ALL", text:"Vem ansvarar för luftfartsskyddet?",
-        options:["LFV","Transportstyrelsen","Polisen","MSB"],
-        correctIndex:1, ref:"Kap 9.1", expl:"Transportstyrelsen." },
-      { id:"K9-2", topic:"ALL", text:"Security-händelse – vad gör du?",
-        options:["Fortsätt flyga","Konfrontera fysiskt","Avbryt säkert, skydda utrustning och rapportera","Ignorera"],
-        correctIndex:2, ref:"Kap 9", expl:"Följ rapporteringsvägar." },
-
-      { id:"K10-1", topic:"A2", text:"Hur påverkar stark vind?",
-        options:["Kortare bromssträcka","Längre broms, drift och högre förbrukning","Ingen påverkan","Alltid stabilare"],
-        correctIndex:1, ref:"Kap 10.1", expl:"Vind ger drift och ökad effektförbrukning." },
-      { id:"K10-2", topic:"A2", text:"Varför problem med dimma/nederbörd?",
-        options:["Propellrar greppar bättre","Sikt, sensorer, elektronik påverkas","Kyler batteriet optimalt","Bättre GNSS"],
-        correctIndex:1, ref:"Kap 10.2", expl:"Fukt påverkar sikt/sensorer/elektronik." },
-      { id:"K10-3", topic:"A2", text:"Batterier i kyla?",
-        options:["Mer ström","Spänningsfall och minskad kapacitet","Ingen påverkan","Laddar snabbare"],
-        correctIndex:1, ref:"Kap 10.3", expl:"Förvärm och planera marginal." },
-      { id:"K10-4", topic:"A2", text:"Vad innebär 1:1-regeln?",
-        options:["Horisontellt avstånd = halva höjden","Planera så att ett haveri inte passerar människor – anpassa höjd/avstånd","Maxhöjd = avstånd till person","Gäller endast A3"],
-        correctIndex:1, ref:"Kap 12.3", expl:"Minimera markrisken – kombinera höjd/avstånd." },
-      { id:"K10-5", topic:"A2", text:"Vindgradient betyder…",
-        options:["samma vind överallt","vinden ökar ofta med höjden","ingen påverkan på små UAS","vinden minskar alltid med höjden"],
-        correctIndex:1, ref:"Kap 10", expl:"Räkna med starkare vind med höjden." },
-      { id:"K10-6", topic:"A2", text:"Icing (isbildning) kan leda till…",
-        options:["bättre lyftkraft","sämre propellergrepp och vibrationer","lägre strömförbrukning","bättre GNSS"],
-        correctIndex:1, ref:"Kap 10.3", expl:"Is försämrar lyft och balans." },
-      { id:"K10-7", topic:"A2", text:"Täta låga moln innebär…",
-        options:["ingen påverkan","risk för förlorad sikt och desorientering","bättre video","högre GNSS-noggrannhet"],
-        correctIndex:1, ref:"Kap 10.2", expl:"I VLOS-operationer får VLOS ej förloras." },
-
-      { id:"R-1", topic:"ALL", text:"Vilka händelser ska rapporteras?",
-        options:["Endast batterifel","Incidenter/tillbud som påverkar flygsäkerhet och vissa intrång i luftrum","Endast förlorad drönare","Endast om polis begär"],
-        correctIndex:1, ref:"Kap 5.6 + myndighet", expl:"Följ operatörens rutin och krav mot TS/SHK." },
-      { id:"R-2", topic:"ALL", text:"Operatörsregistrering krävs när…",
-        options:["drönaren väger 20 g","drönaren har kamera/sensor eller väger ≥250 g","endast i A2","aldrig"],
-        correctIndex:1, ref:"Kap 3.1", expl:"Kamera/sensor eller ≥250 g = registrering." }
-    ];
-    return bank;
+  useEffect(() => {
+    // IMPORTANT: relative path (no leading slash)
+    fetch('questions-250.json')
+      .then(r => r.ok ? r.json() : [])
+      .then(data => { if (Array.isArray(data)) setExternalQs(data); setExtLoaded(true); })
+      .catch(() => setExtLoaded(true));
   }, []);
 
-  const baseFiltered = useMemo(() => {
-    return questions.filter(q => {
-      const topicOk = topic === "ALL" || q.topic === topic || q.topic === "ALL";
-      const searchOk = !search.trim() || (q.text + " " + q.ref).toLowerCase().includes(search.toLowerCase());
-      return topicOk && searchOk;
-    });
-  }, [questions, topic, search]);
+  // Minimal fallback if JSON isn’t available
+  const questions = useMemo(() => {
+    const base = [
+      { id:"B1", topic:"A1A3", text:"Vad betyder VLOS i drönarsammanhang?",
+        options:["Att du får flyga bortom synhåll om du har spotter","Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel","Att videolänken (FPV) fungerar korrekt","Att drönaren alltid delar position via Remote ID"],
+        correctIndex:1, ref:"Kap 5.3", expl:"VLOS = Visual Line Of Sight. Du ska kunna se drönaren hela tiden utan kikare." },
+      { id:"B2", topic:"ALL", text:"Vilken maxhöjd gäller normalt i öppen kategori?",
+        options:["60 m AGL","90 m AGL","120 m AGL","150 m AGL"], correctIndex:2, ref:"Kap 3",
+        expl:"Standardgränsen är 120 m AGL om inget annat anges." }
+    ];
+    return externalQs.length ? externalQs : base;
+  }, [externalQs]);
+
+  // Filter by topic
+  const filtered = useMemo(() => {
+    return questions.filter(q => topic === "ALL" || q.topic === topic || q.topic === "ALL");
+  }, [questions, topic]);
+
+  // Shuffle + slice for quizSize
+  function seededShuffle(arr) {
+    const s = [...arr];
+    for (let i = s.length - 1; i > 0; i--) {
+      const j = Math.floor(((i + 1) * 9301 + 49297) % 233280 / 233280 * (i + 1));
+      [s[i], s[j]] = [s[j], s[i]];
+    }
+    return s;
+  }
 
   const pool = useMemo(() => {
-    let arr = [...baseFiltered];
-    if (shuffle) {
-      const seeded = [...arr];
-      for (let i = seeded.length - 1; i > 0; i--) {
-        const j = Math.floor(((i + 1) * 9301 + 49297) % 233280 / 233280 * (i + 1));
-        [seeded[i], seeded[j]] = [seeded[j], seeded[i]];
-      }
-      arr = seeded;
-    }
+    let arr = [...filtered];
+    if (shuffle) arr = seededShuffle(arr);
     if (quizSize && quizSize > 0) arr = arr.slice(0, quizSize);
     return arr;
-  }, [baseFiltered, shuffle, quizSize]);
+  }, [filtered, shuffle, quizSize]);
 
-  const active = useMemo(() => {
-    if (!activeIds) return [];
-    const set = new Set(activeIds);
-    return pool.filter(q => set.has(q.id));
-  }, [pool, activeIds]);
+  const total = pool.length;
+  const current = total ? pool[currentIdx] : null;
 
-  const displayList = activeIds ? active : pool;
-  const answeredCount = displayList.filter(q => answers[q.id] !== undefined).length;
-  const correctCount = displayList.filter(q => answers[q.id] === q.correctIndex).length;
+  // Timer logic (default 60s per question)
+  function computeTime(qCount) { return Math.max(60, qCount * 60); }
+  useEffect(() => {
+    if (!useTimer || !activeIds || complete || timeLeft <= 0) return;
+    const t = setInterval(() => setTimeLeft(s => s - 1), 1000);
+    return () => clearInterval(t);
+  }, [useTimer, activeIds, complete, timeLeft]);
 
+  useEffect(() => {
+    if (useTimer && activeIds && !complete && timeLeft === 0) setComplete(true);
+  }, [timeLeft, useTimer, activeIds, complete]);
+
+  // Start/reset/answer handlers
   function startQuiz() {
     const ids = pool.map(q => q.id);
     setActiveIds(ids);
     setAnswers({});
     setScore(0);
     setComplete(false);
-  }
-  function submitIfComplete(nextAnswers) {
-    const allAnswered = displayList.every(q => nextAnswers[q.id] !== undefined);
-    if (allAnswered) setComplete(true);
+    setCurrentIdx(0);
+    setTimeLeft(useTimer ? computeTime(ids.length) : 0);
   }
   function onAnswer(q, i) {
     setAnswers(prev => {
       const already = prev[q.id] !== undefined;
       const next = { ...prev, [q.id]: i };
       if (!already && i === q.correctIndex) setScore(s => s + 1);
-      submitIfComplete(next);
       return next;
     });
   }
+  function nextQ() { setCurrentIdx(i => Math.min(i + 1, total - 1)); }
+  function prevQ() { setCurrentIdx(i => Math.max(i - 1, 0)); }
+  function finish() { setComplete(true); }
   function resetAll() {
-    setAnswers({});
-    setScore(0);
-    setComplete(false);
-    setActiveIds(null);
+    setAnswers({}); setScore(0); setComplete(false);
+    setActiveIds(null); setCurrentIdx(0); setTimeLeft(0);
   }
+
+  // UI helpers
+  const selected = current ? answers[current.id] : undefined;
+  const isAnswered = selected !== undefined;
+  const isCorrect = current && isAnswered && selected === current.correctIndex;
+  const answeredCount = Object.keys(answers).length;
+  const mins = Math.floor(timeLeft / 60);
+  const secs = String(timeLeft % 60).padStart(2, '0');
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 p-6">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <header className="mb-6 flex items-center gap-3">
-          <img src="./nordic-skyops-logo.png" alt="Nordic SkyOps" className="w-12 h-12 rounded-xl border border-slate-800" />
+          <!-- Logo fixed: only height set, width auto to avoid deformation -->
+          <img src="./nordic-skyops-logo.png" alt="Nordic SkyOps" className="h-12 w-auto rounded-xl border border-slate-800" />
           <div>
             <h1 className="text-2xl md:text-3xl font-bold">Nordic SkyOps – Drönarutbildning Quiz</h1>
-            <p className="text-slate-300">Öva inför A1/A3 och A2. Direkt feedback, poäng, provlängd 10/20/30, förklaringar och källhänvisning.</p>
+            <p className="text-slate-300">En fråga i taget, provläge med timer, poäng och förklaringar. {extLoaded ? '' : ' (laddar frågor...)'}</p>
           </div>
         </header>
 
@@ -306,109 +159,103 @@ function DroneQuizApp() {
               <option value="A2">Endast A2</option>
             </select>
           </div>
-          <div className="flex items-center gap-2">
-            <label className="text-sm text-slate-300">Sök</label>
-            <input className="bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 w-full" placeholder="t.ex. NOTAM, låghastighetsläge, 1:1-regeln" value={search} onChange={(e) => setSearch(e.target.value)} />
-          </div>
           <div className="flex items-center gap-3">
-            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={shuffle} onChange={(e)=>setShuffle(e.target.checked)} />Blanda frågor</label>
-            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={showOnlyWrong} onChange={(e)=>setShowOnlyWrong(e.target.checked)} />Visa endast felbesvarade</label>
-          </div>
-          <div className="flex items-center gap-2">
-            <label className="text-sm text-slate-300">Quiz-längd</label>
-            <select className="bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 w-full" value={quizSize} onChange={(e)=>setQuizSize(parseInt(e.target.value))}>
-              <option value={0}>Alla</option>
-              <option value={10}>10</option>
-              <option value={20}>20</option>
-              <option value={30}>30</option>
-            </select>
+            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={shuffle} onChange={(e)=>setShuffle(e.target.checked)} />Blanda</label>
+            <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={useTimer} onChange={(e)=>setUseTimer(e.target.checked)} />Provläge (timer)</label>
+            <div className="flex items-center gap-2 ml-auto">
+              <label className="text-sm text-slate-300">Provlängd</label>
+              <select className="bg-slate-900 border border-slate-700 rounded-xl px-3 py-2" value={quizSize} onChange={(e)=>setQuizSize(parseInt(e.target.value))}>
+                <option value={10}>10</option>
+                <option value={20}>20</option>
+                <option value={30}>30</option>
+              </select>
+            </div>
           </div>
         </section>
 
         <section className="mb-4 flex flex-wrap gap-2 items-center justify-between">
           <div className="text-sm bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 flex items-center gap-3">
-            <span>Frågor: {displayList.length || pool.length}</span>
+            <span>Fråga: {Math.min(currentIdx + 1, total)} / {total}</span>
             <span>Besvarade: {answeredCount}</span>
-            <span>Rätt: {correctCount}</span>
-            <span>Poäng: {score}</span>
+            <span>Rätt: {score}</span>
+            {useTimer && activeIds && !complete && <span className="font-mono">⏱️ {mins}:{secs}</span>}
           </div>
           <div className="flex gap-2">
-            {!activeIds && (
-              <button onClick={startQuiz} className="bg-emerald-500 text-slate-900 rounded-xl px-4 py-2 font-semibold hover:opacity-90">Starta quiz</button>
-            )}
+            {!activeIds && <button onClick={startQuiz} className="bg-emerald-500 text-slate-900 rounded-xl px-4 py-2 font-semibold hover:opacity-90">Starta prov</button>}
             <button onClick={resetAll} className="bg-slate-800 border border-slate-600 rounded-xl px-4 py-2 hover:border-slate-500">Nollställ</button>
           </div>
         </section>
 
         {complete && (
           <div className="mb-4 p-4 rounded-2xl border border-emerald-700 bg-emerald-500/10">
-            <p className="font-semibold">Klart! Du fick {score} poäng av {displayList.length} möjliga.</p>
-            <p className="text-sm text-slate-300">Använd "Visa endast felbesvarade" för repetition.</p>
+            <p className="font-semibold">Klart! Du fick {score} poäng av {total} möjliga.</p>
+            <p className="text-sm text-slate-300">Starta nytt prov eller ändra längd/ämne ovan.</p>
           </div>
         )}
 
-        <ol className="space-y-4">
-          {(showOnlyWrong ? displayList.filter(q => answers[q.id] !== undefined && answers[q.id] !== q.correctIndex) : displayList).map((q, idx) => {
-            const selected = answers[q.id];
-            const isAnswered = selected !== undefined;
-            const isCorrect = isAnswered && selected === q.correctIndex;
-            return (
-              <li key={q.id} className="bg-slate-900 border border-slate-800 rounded-2xl p-4">
-                <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <p className="text-sm uppercase tracking-wide text-slate-400">{q.topic === 'ALL' ? 'Gemensam' : q.topic}</p>
-                    <h2 className="font-semibold text-lg">{idx + 1}. {q.text}</h2>
-                  </div>
-                  {isAnswered && (
-                    <span className={`shrink-0 inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold ${isCorrect ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-600/40' : 'bg-rose-500/20 text-rose-300 border border-rose-600/40'}`}>
-                      {isCorrect ? 'Rätt' : 'Fel'}
-                    </span>
-                  )}
-                </div>
+        {activeIds && current && (
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <p className="text-sm uppercase tracking-wide text-slate-400">{current.topic === 'ALL' ? 'Gemensam' : current.topic}</p>
+                <h2 className="font-semibold text-lg">{currentIdx + 1}. {current.text}</h2>
+              </div>
+              {isAnswered && (
+                <span className={`shrink-0 inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold ${isCorrect ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-600/40' : 'bg-rose-500/20 text-rose-300 border border-rose-600/40'}`}>
+                  {isCorrect ? 'Rätt' : 'Fel'}
+                </span>
+              )}
+            </div>
 
-                <div className="mt-3 grid gap-2">
-                  {q.options.map((opt, i) => {
-                    const chosen = answers[q.id] === i;
-                    const showState = isAnswered && (i === q.correctIndex || i === selected);
-                    const stateClass = !isAnswered
-                      ? 'hover:border-slate-600'
-                      : i === q.correctIndex
-                        ? 'border-emerald-500/60 bg-emerald-500/10'
-                        : i === selected
-                          ? 'border-rose-500/60 bg-rose-500/10'
-                          : 'opacity-60';
-
-                    return (
-                      <button key={i} onClick={() => onAnswer(q, i)} className={`text-left bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 ${showState ? stateClass : 'hover:border-slate-600'} ${chosen ? 'ring-1 ring-slate-500' : ''}`}>
-                        <div className="flex items-start gap-2">
-                          <span className="mt-0.5 inline-block w-5 h-5 rounded-full border border-slate-600 flex items-center justify-center text-xs">{String.fromCharCode(65 + i)}</span>
-                          <span>{opt}</span>
-                        </div>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {isAnswered && (
-                  <div className="mt-3 text-sm">
-                    <div className={`rounded-xl border px-3 py-2 ${isCorrect ? 'border-emerald-700 bg-emerald-500/10' : 'border-amber-700 bg-amber-500/10'}`}>
-                      <p className="font-semibold">Förklaring</p>
-                      <p className="text-slate-200">{q.expl}</p>
-                      <p className="text-xs mt-1 text-slate-300">Hänvisning: {q.ref}</p>
+            <div className="mt-3 grid gap-2">
+              {current.options.map((opt, i) => {
+                const chosen = answers[current.id] === i;
+                const showState = isAnswered && (i === current.correctIndex || i === selected);
+                const stateClass = !isAnswered
+                  ? 'hover:border-slate-600'
+                  : i === current.correctIndex
+                    ? 'border-emerald-500/60 bg-emerald-500/10'
+                    : i === selected
+                      ? 'border-rose-500/60 bg-rose-500/10'
+                      : 'opacity-60';
+                return (
+                  <button key={i} onClick={() => onAnswer(current, i)} className={`text-left bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 ${showState ? stateClass : 'hover:border-slate-600'} ${chosen ? 'ring-1 ring-slate-500' : ''}`}>
+                    <div className="flex items-start gap-2">
+                      <span className="mt-0.5 inline-block w-5 h-5 rounded-full border border-slate-600 flex items-center justify-center text-xs">{String.fromCharCode(65 + i)}</span>
+                      <span>{opt}</span>
                     </div>
-                  </div>
-                )}
-              </li>
-            );
-          })}
-        </ol>
+                  </button>
+                );
+              })}
+            </div>
 
-        <footer className="mt-8 flex flex-col md:flex-row gap-3 items-start md:items-center justify-between">
-          <div className="text-sm text-slate-300">Tips: Filtrera på <b>A2</b> för meteorologi/1:1-regeln och <b>A1/A3</b> för grundregler.</div>
-          <div className="flex gap-2">
-            <button onClick={() => setShowOnlyWrong(true)} className="bg-slate-800 border border-slate-600 rounded-xl px-4 py-2 hover:border-slate-500">Visa fel</button>
+            {isAnswered && (
+              <div className="mt-3 text-sm">
+                <div className={`rounded-xl border px-3 py-2 ${isCorrect ? 'border-emerald-700 bg-emerald-500/10' : 'border-amber-700 bg-amber-500/10'}`}>
+                  <p className="font-semibold">Förklaring</p>
+                  <p className="text-slate-200">{current.expl}</p>
+                  <p className="text-xs mt-1 text-slate-300">Hänvisning: {current.ref}</p>
+                </div>
+              </div>
+            )}
+
+            <div className="mt-4 flex items-center justify-between">
+              <button onClick={prevQ} disabled={currentIdx === 0} className="px-4 py-2 rounded-xl bg-slate-800 border border-slate-600 disabled:opacity-40">Föregående</button>
+              <div className="flex items-center gap-2">
+                {!complete && <button onClick={finish} className="px-4 py-2 rounded-xl bg-amber-500 text-slate-900 font-semibold">Avsluta prov</button>}
+                <button onClick={nextQ} disabled={currentIdx >= total - 1} className="px-4 py-2 rounded-xl bg-emerald-500 text-slate-900 font-semibold disabled:opacity-40">Nästa</button>
+              </div>
+            </div>
+
+            <div className="mt-3 text-xs text-slate-400">
+              <span className="px-2 py-1 rounded bg-slate-800/70 border border-slate-700">Referens: {current.ref}</span>
+            </div>
           </div>
-        </footer>
+        )}
+
+        {!activeIds && (
+          <div className="text-sm text-slate-300">Starta prov för att få frågor en i taget med timer. Välj ämne och provlängd ovan.</div>
+        )}
       </div>
     </div>
   );
@@ -416,7 +263,6 @@ function DroneQuizApp() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<DroneQuizApp />);
-
   </script>
 
   <script>
@@ -426,3 +272,4 @@ root.render(<DroneQuizApp />);
   </script>
 </body>
 </html>
+
