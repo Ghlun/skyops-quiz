@@ -47,8 +47,7 @@ function DroneQuizApp() {
   const [extLoaded, setExtLoaded] = useState(false);
 
   useEffect(() => {
-    // IMPORTANT: relative path (no leading slash)
-    fetch('questions-250.json')
+    fetch('questions-250.json')  // relative path — no leading slash
       .then(r => r.ok ? r.json() : [])
       .then(data => { if (Array.isArray(data)) setExternalQs(data); setExtLoaded(true); })
       .catch(() => setExtLoaded(true));
@@ -142,7 +141,7 @@ function DroneQuizApp() {
     <div className="min-h-screen bg-slate-950 text-slate-100 p-6">
       <div className="max-w-3xl mx-auto">
         <header className="mb-6 flex items-center gap-3">
-          <!-- Logo fixed: only height set, width auto to avoid deformation -->
+          {/* Logo fixed: only height set, width auto to avoid deformation */}
           <img src="./nordic-skyops-logo.png" alt="Nordic SkyOps" className="h-12 w-auto rounded-xl border border-slate-800" />
           <div>
             <h1 className="text-2xl md:text-3xl font-bold">Nordic SkyOps – Drönarutbildning Quiz</h1>
@@ -272,4 +271,5 @@ root.render(<DroneQuizApp />);
   </script>
 </body>
 </html>
+
 
