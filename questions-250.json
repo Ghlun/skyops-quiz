@@ -1,204 +1,274 @@
 [
   {
-    "id": "Q1-0",
+    "id": "Q1",
     "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel?",
+    "text": "Vad innebär begreppet situationsmedvetenhet för en fjärrpilot?",
     "options": [
-      "Att drönaren alltid delar position via Remote ID",
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att du får flyga bortom synhåll om du har spotter"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Att videolänken (FPV) fungerar korrekt"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter"
+      "Att alltid förlita sig på RTH",
+      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
+      "Att endast väderleken avgör beslut",
+      "Att geostaket ersätter riskbedömning"
     ],
     "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
+    "ref": "Kap 1",
+    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
   },
   {
-    "id": "Q1-3",
+    "id": "Q1_v1",
     "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
+    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
     "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Att drönaren alltid delar position via Remote ID",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att du får flyga bortom synhåll om du har spotter"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 5.3? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter"
+      "Att alltid förlita sig på RTH",
+      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
+      "Att endast väderleken avgör beslut",
+      "Att geostaket ersätter riskbedömning"
     ],
     "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
+    "ref": "Kap 1",
+    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
   },
   {
-    "id": "Q1-6",
+    "id": "Q1_v2",
     "topic": "ALL",
-    "text": "När är följande riktigt? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
+    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
     "options": [
-      "Att drönaren alltid delar position via Remote ID",
-      "Att videolänken (FPV) fungerar korrekt",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Att drönaren alltid delar position via Remote ID"
+      "Att alltid förlita sig på RTH",
+      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
+      "Att endast väderleken avgör beslut",
+      "Att geostaket ersätter riskbedömning"
     ],
     "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
+    "ref": "Kap 1",
+    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
   },
   {
-    "id": "Q2-0",
+    "id": "Q1_v3",
     "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: 120 m AGL?",
+    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
+    "options": [
+      "Att alltid förlita sig på RTH",
+      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
+      "Att endast väderleken avgör beslut",
+      "Att geostaket ersätter riskbedömning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 1",
+    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
+  },
+  {
+    "id": "Q1_v4",
+    "topic": "ALL",
+    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
+    "options": [
+      "Att alltid förlita sig på RTH",
+      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
+      "Att endast väderleken avgör beslut",
+      "Att geostaket ersätter riskbedömning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 1",
+    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
+  },
+  {
+    "id": "Q1_v5",
+    "topic": "ALL",
+    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
+    "options": [
+      "Att alltid förlita sig på RTH",
+      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
+      "Att endast väderleken avgör beslut",
+      "Att geostaket ersätter riskbedömning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 1",
+    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
+  },
+  {
+    "id": "Q2",
+    "topic": "ALL",
+    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
+    "options": [
+      "Hörseln",
+      "Synen",
+      "Luktsinnet",
+      "Smaksinnet"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.5",
+    "expl": "Synen är primär för VLOS och konfliktupptäckt."
+  },
+  {
+    "id": "Q2_v1",
+    "topic": "ALL",
+    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
+    "options": [
+      "Hörseln",
+      "Synen",
+      "Luktsinnet",
+      "Smaksinnet"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.5",
+    "expl": "Synen är primär för VLOS och konfliktupptäckt."
+  },
+  {
+    "id": "Q2_v2",
+    "topic": "ALL",
+    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
+    "options": [
+      "Hörseln",
+      "Synen",
+      "Luktsinnet",
+      "Smaksinnet"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.5",
+    "expl": "Synen är primär för VLOS och konfliktupptäckt."
+  },
+  {
+    "id": "Q2_v3",
+    "topic": "ALL",
+    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
+    "options": [
+      "Hörseln",
+      "Synen",
+      "Luktsinnet",
+      "Smaksinnet"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.5",
+    "expl": "Synen är primär för VLOS och konfliktupptäckt."
+  },
+  {
+    "id": "Q2_v4",
+    "topic": "ALL",
+    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
+    "options": [
+      "Hörseln",
+      "Synen",
+      "Luktsinnet",
+      "Smaksinnet"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.5",
+    "expl": "Synen är primär för VLOS och konfliktupptäckt."
+  },
+  {
+    "id": "Q2_v5",
+    "topic": "ALL",
+    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
+    "options": [
+      "Hörseln",
+      "Synen",
+      "Luktsinnet",
+      "Smaksinnet"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.5",
+    "expl": "Synen är primär för VLOS och konfliktupptäckt."
+  },
+  {
+    "id": "Q3",
+    "topic": "ALL",
+    "text": "Vad används NOTAM till inom luftfarten?",
+    "options": [
+      "Att beställa väder",
+      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
+      "Att registrera operatörer",
+      "Att uppdatera manualer"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
+  },
+  {
+    "id": "Q3_v1",
+    "topic": "ALL",
+    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
+    "options": [
+      "Att beställa väder",
+      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
+      "Att registrera operatörer",
+      "Att uppdatera manualer"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
+  },
+  {
+    "id": "Q3_v2",
+    "topic": "ALL",
+    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
+    "options": [
+      "Att beställa väder",
+      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
+      "Att registrera operatörer",
+      "Att uppdatera manualer"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
+  },
+  {
+    "id": "Q3_v3",
+    "topic": "ALL",
+    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
+    "options": [
+      "Att beställa väder",
+      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
+      "Att registrera operatörer",
+      "Att uppdatera manualer"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
+  },
+  {
+    "id": "Q3_v4",
+    "topic": "ALL",
+    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
+    "options": [
+      "Att beställa väder",
+      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
+      "Att registrera operatörer",
+      "Att uppdatera manualer"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
+  },
+  {
+    "id": "Q3_v5",
+    "topic": "ALL",
+    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
+    "options": [
+      "Att beställa väder",
+      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
+      "Att registrera operatörer",
+      "Att uppdatera manualer"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
+  },
+  {
+    "id": "Q4",
+    "topic": "A1A3",
+    "text": "Vilken maxhöjd gäller normalt i öppen kategori?",
     "options": [
       "60 m AGL",
-      "150 m AGL",
-      "90 m AGL",
-      "120 m AGL"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? 120 m AGL",
-    "options": [
-      "150 m AGL",
-      "120 m AGL",
-      "60 m AGL",
-      "90 m AGL"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: 120 m AGL",
-    "options": [
-      "150 m AGL",
       "90 m AGL",
       "120 m AGL",
-      "60 m AGL"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? 120 m AGL",
-    "options": [
-      "120 m AGL",
-      "150 m AGL",
-      "90 m AGL",
-      "60 m AGL"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? 120 m AGL",
-    "options": [
-      "120 m AGL",
-      "90 m AGL",
-      "60 m AGL",
       "150 m AGL"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
+    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q2-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 3? 120 m AGL",
-    "options": [
-      "150 m AGL",
-      "120 m AGL",
-      "90 m AGL",
-      "60 m AGL"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? 120 m AGL",
+    "id": "Q4_v1",
+    "topic": "A1A3",
+    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
     "options": [
       "60 m AGL",
       "90 m AGL",
@@ -207,3296 +277,734 @@
     ],
     "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
+    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q2-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: 120 m AGL",
+    "id": "Q4_v2",
+    "topic": "A1A3",
+    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
     "options": [
-      "120 m AGL",
       "60 m AGL",
-      "150 m AGL",
-      "90 m AGL"
+      "90 m AGL",
+      "120 m AGL",
+      "150 m AGL"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
+    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q3-0",
-    "topic": "A2",
-    "text": "Vad betyder detta i praktiken: 30 m (5 m med låghastighetsläge)?",
+    "id": "Q4_v3",
+    "topic": "A1A3",
+    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
     "options": [
-      "50 m",
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "150 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-1",
-    "topic": "A2",
-    "text": "Vilket alternativ stämmer bäst? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "50 m",
-      "30 m (5 m med låghastighetsläge)",
-      "150 m",
-      "Över folksamling tillåtet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-2",
-    "topic": "A2",
-    "text": "Välj rätt påstående: 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "50 m",
-      "150 m"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-3",
-    "topic": "A2",
-    "text": "Vad gäller enligt materialet? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "150 m",
-      "50 m",
-      "Över folksamling tillåtet",
-      "30 m (5 m med låghastighetsläge)"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-4",
-    "topic": "A2",
-    "text": "Vilket är korrekt? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "150 m",
-      "Över folksamling tillåtet",
-      "30 m (5 m med låghastighetsläge)",
-      "50 m"
+      "60 m AGL",
+      "90 m AGL",
+      "120 m AGL",
+      "150 m AGL"
     ],
     "correctIndex": 2,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
+    "ref": "Kap 3",
+    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q3-5",
-    "topic": "A2",
-    "text": "Vad är korrekt enligt Kap 3.3 A2? 30 m (5 m med låghastighetsläge)",
+    "id": "Q4_v4",
+    "topic": "A1A3",
+    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
     "options": [
-      "150 m",
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "50 m"
+      "60 m AGL",
+      "90 m AGL",
+      "120 m AGL",
+      "150 m AGL"
     ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
+    "correctIndex": 2,
+    "ref": "Kap 3",
+    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q3-6",
+    "id": "Q4_v5",
+    "topic": "A1A3",
+    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
+    "options": [
+      "60 m AGL",
+      "90 m AGL",
+      "120 m AGL",
+      "150 m AGL"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 3",
+    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q5",
     "topic": "A2",
-    "text": "När är följande riktigt? 30 m (5 m med låghastighetsläge)",
+    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
     "options": [
       "50 m",
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "150 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-7",
-    "topic": "A2",
-    "text": "Markera det som stämmer: 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "Över folksamling tillåtet",
-      "30 m (5 m med låghastighetsläge)",
+      "30 m (eller 5 m med låghastighetsläge)",
       "150 m",
-      "50 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q4-0",
-    "topic": "A1A3",
-    "text": "Vad betyder detta i praktiken: Minst 150 m från bebyggelse och personer?",
-    "options": [
-      "Inga avståndskrav",
-      "30 m",
-      "5 m",
-      "Minst 150 m från bebyggelse och personer"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-1",
-    "topic": "A1A3",
-    "text": "Vilket alternativ stämmer bäst? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "5 m",
-      "Minst 150 m från bebyggelse och personer",
-      "30 m",
       "Inga avståndskrav"
     ],
     "correctIndex": 1,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
   },
   {
-    "id": "Q4-2",
-    "topic": "A1A3",
-    "text": "Välj rätt påstående: Minst 150 m från bebyggelse och personer",
+    "id": "Q5_v1",
+    "topic": "A2",
+    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
     "options": [
-      "Minst 150 m från bebyggelse och personer",
-      "Inga avståndskrav",
-      "5 m",
-      "30 m"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-3",
-    "topic": "A1A3",
-    "text": "Vad gäller enligt materialet? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "5 m",
-      "Minst 150 m från bebyggelse och personer",
-      "30 m",
+      "50 m",
+      "30 m (eller 5 m med låghastighetsläge)",
+      "150 m",
       "Inga avståndskrav"
     ],
     "correctIndex": 1,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
   },
   {
-    "id": "Q4-4",
-    "topic": "A1A3",
-    "text": "Vilket är korrekt? Minst 150 m från bebyggelse och personer",
+    "id": "Q5_v2",
+    "topic": "A2",
+    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
     "options": [
-      "Minst 150 m från bebyggelse och personer",
-      "5 m",
-      "30 m",
+      "50 m",
+      "30 m (eller 5 m med låghastighetsläge)",
+      "150 m",
       "Inga avståndskrav"
     ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
   },
   {
-    "id": "Q4-5",
-    "topic": "A1A3",
-    "text": "Vad är korrekt enligt Kap 3.3 A3? Minst 150 m från bebyggelse och personer",
+    "id": "Q5_v3",
+    "topic": "A2",
+    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
     "options": [
-      "30 m",
-      "5 m",
-      "Inga avståndskrav",
-      "Minst 150 m från bebyggelse och personer"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-6",
-    "topic": "A1A3",
-    "text": "När är följande riktigt? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "Inga avståndskrav",
-      "30 m",
-      "Minst 150 m från bebyggelse och personer",
-      "5 m"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-7",
-    "topic": "A1A3",
-    "text": "Markera det som stämmer: Minst 150 m från bebyggelse och personer",
-    "options": [
-      "30 m",
-      "Minst 150 m från bebyggelse och personer",
-      "Inga avståndskrav",
-      "5 m"
+      "50 m",
+      "30 m (eller 5 m med låghastighetsläge)",
+      "150 m",
+      "Inga avståndskrav"
     ],
     "correctIndex": 1,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
   },
   {
-    "id": "Q5-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Publicera tillfälliga meddelanden som påverkar flygverksamhet?",
+    "id": "Q5_v4",
+    "topic": "A2",
+    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
     "options": [
-      "Registrera operatörer",
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Registrera operatörer",
-      "Uppdatera manualer"
+      "50 m",
+      "30 m (eller 5 m med låghastighetsläge)",
+      "150 m",
+      "Inga avståndskrav"
     ],
     "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
   },
   {
-    "id": "Q5-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Publicera tillfälliga meddelanden som påverkar flygverksamhet",
+    "id": "Q5_v5",
+    "topic": "A2",
+    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
     "options": [
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Registrera operatörer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Registrera operatörer"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Registrera operatörer",
-      "Uppdatera manualer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 2.3 NOTAM? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Registrera operatörer",
-      "Uppdatera manualer",
-      "Beställa väder",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Registrera operatörer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Uppdatera manualer"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Registrera operatörer"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q6-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: AIP innehåller varaktig, väsentlig flyginformation?",
-    "options": [
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "SIGMET beskriver luftrum i AIP",
-      "AIP SUP innehåller varaktig info",
-      "TAF är flygplatskarta"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "TAF är flygplatskarta",
-      "SIGMET beskriver luftrum i AIP",
-      "AIP SUP innehåller varaktig info",
-      "AIP innehåller varaktig, väsentlig flyginformation"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "SIGMET beskriver luftrum i AIP",
-      "TAF är flygplatskarta",
-      "AIP SUP innehåller varaktig info"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "AIP SUP innehåller varaktig info",
-      "TAF är flygplatskarta",
-      "SIGMET beskriver luftrum i AIP"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "SIGMET beskriver luftrum i AIP",
-      "AIP SUP innehåller varaktig info",
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "TAF är flygplatskarta"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 2.3 AIP? AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "TAF är flygplatskarta",
-      "AIP SUP innehåller varaktig info",
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "SIGMET beskriver luftrum i AIP"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "SIGMET beskriver luftrum i AIP",
-      "TAF är flygplatskarta",
-      "AIP SUP innehåller varaktig info"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "SIGMET beskriver luftrum i AIP",
-      "TAF är flygplatskarta",
-      "AIP SUP innehåller varaktig info",
-      "AIP innehåller varaktig, väsentlig flyginformation"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q7-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: AIP SUP är ett supplement med tillfälliga ändringar i AIP?",
-    "options": [
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är en karta över skyddad natur",
-      "AIP SUP är ett Remote ID-verktyg",
-      "AIP SUP är en väderprognos"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q7-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-    "options": [
-      "AIP SUP är ett Remote ID-verktyg",
-      "AIP SUP är en väderprognos",
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är en karta över skyddad natur"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q7-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-    "options": [
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är ett Remote ID-verktyg",
-      "AIP SUP är en väderprognos",
-      "AIP SUP är en karta över skyddad natur"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q7-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-    "options": [
-      "AIP SUP är ett Remote ID-verktyg",
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är en väderprognos",
-      "AIP SUP är en karta över skyddad natur"
+      "50 m",
+      "30 m (eller 5 m med låghastighetsläge)",
+      "150 m",
+      "Inga avståndskrav"
     ],
     "correctIndex": 1,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
   },
   {
-    "id": "Q7-4",
+    "id": "Q6",
     "topic": "ALL",
-    "text": "Vilket är korrekt? AIP SUP är ett supplement med tillfälliga ändringar i AIP",
+    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
     "options": [
-      "AIP SUP är en karta över skyddad natur",
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är en väderprognos",
-      "AIP SUP är ett Remote ID-verktyg"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q7-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 2.3 AIP SUP? AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-    "options": [
-      "AIP SUP är en karta över skyddad natur",
-      "AIP SUP är en väderprognos",
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är ett Remote ID-verktyg"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q7-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-    "options": [
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är en karta över skyddad natur",
-      "AIP SUP är en väderprognos",
-      "AIP SUP är ett Remote ID-verktyg"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q7-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-    "options": [
-      "AIP SUP är en karta över skyddad natur",
-      "AIP SUP är ett supplement med tillfälliga ändringar i AIP",
-      "AIP SUP är ett Remote ID-verktyg",
-      "AIP SUP är en väderprognos"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 AIP SUP",
-    "expl": "AIP SUP är ett supplement med tillfälliga ändringar i AIP."
-  },
-  {
-    "id": "Q8-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: LFV Drönarkarta?",
-    "options": [
-      "SMHI Väderkarta",
-      "Lantmäteriets fastighetskarta",
-      "Transportstyrelsens fordonskarta",
-      "LFV Drönarkarta"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? LFV Drönarkarta",
-    "options": [
-      "Lantmäteriets fastighetskarta",
-      "Transportstyrelsens fordonskarta",
-      "LFV Drönarkarta",
-      "SMHI Väderkarta"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: LFV Drönarkarta",
-    "options": [
-      "Transportstyrelsens fordonskarta",
-      "LFV Drönarkarta",
-      "Lantmäteriets fastighetskarta",
-      "SMHI Väderkarta"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? LFV Drönarkarta",
-    "options": [
-      "LFV Drönarkarta",
-      "SMHI Väderkarta",
-      "Transportstyrelsens fordonskarta",
-      "Lantmäteriets fastighetskarta"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? LFV Drönarkarta",
-    "options": [
-      "Lantmäteriets fastighetskarta",
-      "Transportstyrelsens fordonskarta",
-      "LFV Drönarkarta",
-      "SMHI Väderkarta"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 2.3? LFV Drönarkarta",
-    "options": [
-      "LFV Drönarkarta",
-      "Transportstyrelsens fordonskarta",
-      "SMHI Väderkarta",
-      "Lantmäteriets fastighetskarta"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? LFV Drönarkarta",
-    "options": [
-      "Lantmäteriets fastighetskarta",
-      "LFV Drönarkarta",
-      "SMHI Väderkarta",
-      "Transportstyrelsens fordonskarta"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q8-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: LFV Drönarkarta",
-    "options": [
-      "SMHI Väderkarta",
-      "Lantmäteriets fastighetskarta",
-      "LFV Drönarkarta",
-      "Transportstyrelsens fordonskarta"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3",
-    "expl": "LFV Drönarkarta visar drönarrelevant luftrumsinfo och kontaktvägar för tillstånd."
-  },
-  {
-    "id": "Q9-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Naturvårdsverkets karta över skyddad natur?",
-    "options": [
-      "Naturvårdsverkets karta över skyddad natur",
-      "LFV Drönarkarta",
-      "Meteogram",
-      "U-space central"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "Meteogram",
-      "U-space central",
-      "LFV Drönarkarta",
-      "Naturvårdsverkets karta över skyddad natur"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "U-space central",
-      "Meteogram",
-      "LFV Drönarkarta",
-      "Naturvårdsverkets karta över skyddad natur"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "Naturvårdsverkets karta över skyddad natur",
-      "U-space central",
-      "Meteogram",
-      "LFV Drönarkarta"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "LFV Drönarkarta",
-      "Naturvårdsverkets karta över skyddad natur",
-      "U-space central",
-      "Meteogram"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 2.3? Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "U-space central",
-      "LFV Drönarkarta",
-      "Meteogram",
-      "Naturvårdsverkets karta över skyddad natur"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "Meteogram",
-      "U-space central",
-      "Naturvårdsverkets karta över skyddad natur",
-      "LFV Drönarkarta"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q9-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Naturvårdsverkets karta över skyddad natur",
-    "options": [
-      "U-space central",
-      "Naturvårdsverkets karta över skyddad natur",
-      "LFV Drönarkarta",
-      "Meteogram"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3",
-    "expl": "Naturvårdsverkets karta över skyddad natur visar nationalparker/naturreservat."
-  },
-  {
-    "id": "Q10-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Direkt fjärridentifiering och geomedvetenhet?",
-    "options": [
-      "Fallskärm",
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "Endast geostaket",
-      "ADS-B sändare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "Fallskärm",
-      "Endast geostaket",
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "ADS-B sändare"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "Endast geostaket",
-      "ADS-B sändare",
-      "Fallskärm"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "Fallskärm",
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "ADS-B sändare",
-      "Endast geostaket"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "ADS-B sändare",
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "Fallskärm",
-      "Endast geostaket"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 3.3? Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "ADS-B sändare",
-      "Fallskärm",
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "Endast geostaket"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "Endast geostaket",
-      "Fallskärm",
-      "ADS-B sändare",
-      "Direkt fjärridentifiering och geomedvetenhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q10-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Direkt fjärridentifiering och geomedvetenhet",
-    "options": [
-      "Fallskärm",
-      "Endast geostaket",
-      "Direkt fjärridentifiering och geomedvetenhet",
-      "ADS-B sändare"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.3",
-    "expl": "C1–C3-drönare tillverkade efter 1 juli 2020 ska ha direkt fjärridentifiering och geomedvetenhet."
-  },
-  {
-    "id": "Q11-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Omdöme, reaktionsförmåga och riskbedömning försämras?",
-    "options": [
-      "Ingen påverkan",
-      "GPS störs",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras",
-      "Videolänk stängs av"
+      "För att videolänken annars stängs av",
+      "För att GPS störs",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att batteriet drar mer ström"
     ],
     "correctIndex": 2,
     "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
+    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
   },
   {
-    "id": "Q11-1",
+    "id": "Q6_v1",
     "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Omdöme, reaktionsförmåga och riskbedömning försämras",
+    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
     "options": [
-      "GPS störs",
-      "Ingen påverkan",
-      "Videolänk stängs av",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q11-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Omdöme, reaktionsförmåga och riskbedömning försämras",
-    "options": [
-      "GPS störs",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras",
-      "Videolänk stängs av",
-      "Ingen påverkan"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q11-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Omdöme, reaktionsförmåga och riskbedömning försämras",
-    "options": [
-      "Ingen påverkan",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras",
-      "GPS störs",
-      "Videolänk stängs av"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q11-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Omdöme, reaktionsförmåga och riskbedömning försämras",
-    "options": [
-      "Omdöme, reaktionsförmåga och riskbedömning försämras",
-      "Ingen påverkan",
-      "GPS störs",
-      "Videolänk stängs av"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q11-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 4.2? Omdöme, reaktionsförmåga och riskbedömning försämras",
-    "options": [
-      "Videolänk stängs av",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras",
-      "GPS störs",
-      "Ingen påverkan"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q11-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Omdöme, reaktionsförmåga och riskbedömning försämras",
-    "options": [
-      "Videolänk stängs av",
-      "GPS störs",
-      "Ingen påverkan",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q11-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Omdöme, reaktionsförmåga och riskbedömning försämras",
-    "options": [
-      "Videolänk stängs av",
-      "Omdöme, reaktionsförmåga och riskbedömning försämras",
-      "Ingen påverkan",
-      "GPS störs"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.2",
-    "expl": "Alkohol försämrar omdöme, reaktionsförmåga och riskbedömning – nolltolerans gäller."
-  },
-  {
-    "id": "Q12-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Mikrosömn?",
-    "options": [
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Ökat blodtryck",
-      "Pulsfall"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
-  },
-  {
-    "id": "Q12-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Mikrosömn",
-    "options": [
-      "Ökad handsvett",
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Pulsfall"
+      "För att videolänken annars stängs av",
+      "För att GPS störs",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att batteriet drar mer ström"
     ],
     "correctIndex": 2,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
+    "ref": "Kap 4.2",
+    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
   },
   {
-    "id": "Q12-2",
+    "id": "Q6_v2",
     "topic": "ALL",
-    "text": "Välj rätt påstående: Mikrosömn",
+    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
     "options": [
-      "Mikrosömn",
-      "Ökat blodtryck",
-      "Ökad handsvett",
-      "Pulsfall"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
-  },
-  {
-    "id": "Q12-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Mikrosömn",
-    "options": [
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Pulsfall",
-      "Ökat blodtryck"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
-  },
-  {
-    "id": "Q12-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Mikrosömn",
-    "options": [
-      "Mikrosömn",
-      "Pulsfall",
-      "Ökat blodtryck",
-      "Ökad handsvett"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
-  },
-  {
-    "id": "Q12-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 4.4? Mikrosömn",
-    "options": [
-      "Ökat blodtryck",
-      "Ökad handsvett",
-      "Mikrosömn",
-      "Pulsfall"
+      "För att videolänken annars stängs av",
+      "För att GPS störs",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att batteriet drar mer ström"
     ],
     "correctIndex": 2,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
+    "ref": "Kap 4.2",
+    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
   },
   {
-    "id": "Q12-6",
+    "id": "Q6_v3",
     "topic": "ALL",
-    "text": "När är följande riktigt? Mikrosömn",
+    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "options": [
+      "För att videolänken annars stängs av",
+      "För att GPS störs",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att batteriet drar mer ström"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 4.2",
+    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+  },
+  {
+    "id": "Q6_v4",
+    "topic": "ALL",
+    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "options": [
+      "För att videolänken annars stängs av",
+      "För att GPS störs",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att batteriet drar mer ström"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 4.2",
+    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+  },
+  {
+    "id": "Q6_v5",
+    "topic": "ALL",
+    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "options": [
+      "För att videolänken annars stängs av",
+      "För att GPS störs",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att batteriet drar mer ström"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 4.2",
+    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+  },
+  {
+    "id": "Q7",
+    "topic": "ALL",
+    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
     "options": [
       "Ökat blodtryck",
       "Mikrosömn",
       "Ökad handsvett",
-      "Pulsfall"
+      "Sämre mörkerseende"
     ],
     "correctIndex": 1,
     "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
+    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
   },
   {
-    "id": "Q12-7",
+    "id": "Q7_v1",
     "topic": "ALL",
-    "text": "Markera det som stämmer: Mikrosömn",
+    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
     "options": [
-      "Ökad handsvett",
       "Ökat blodtryck",
-      "Pulsfall",
-      "Mikrosömn"
+      "Mikrosömn",
+      "Ökad handsvett",
+      "Sämre mörkerseende"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "ref": "Kap 4.4",
-    "expl": "Mikrosömn är ett typiskt tecken på trötthet och farligt vid flygning."
+    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
   },
   {
-    "id": "Q13-0",
+    "id": "Q7_v2",
     "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Du kan pressas att ta onödiga risker?",
+    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
     "options": [
-      "Automation tar över beslut",
-      "Du kan pressas att ta onödiga risker",
-      "Det påverkar aldrig beslut",
-      "Du blir alltid mer försiktig"
+      "Ökat blodtryck",
+      "Mikrosömn",
+      "Ökad handsvett",
+      "Sämre mörkerseende"
     ],
     "correctIndex": 1,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
+    "ref": "Kap 4.4",
+    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
   },
   {
-    "id": "Q13-1",
+    "id": "Q7_v3",
     "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Du kan pressas att ta onödiga risker",
+    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
     "options": [
-      "Det påverkar aldrig beslut",
-      "Du kan pressas att ta onödiga risker",
-      "Automation tar över beslut",
-      "Du blir alltid mer försiktig"
+      "Ökat blodtryck",
+      "Mikrosömn",
+      "Ökad handsvett",
+      "Sämre mörkerseende"
     ],
     "correctIndex": 1,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
+    "ref": "Kap 4.4",
+    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
   },
   {
-    "id": "Q13-2",
+    "id": "Q7_v4",
     "topic": "ALL",
-    "text": "Välj rätt påstående: Du kan pressas att ta onödiga risker",
+    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
     "options": [
-      "Du kan pressas att ta onödiga risker",
-      "Det påverkar aldrig beslut",
-      "Du blir alltid mer försiktig",
-      "Automation tar över beslut"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
-  },
-  {
-    "id": "Q13-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Du kan pressas att ta onödiga risker",
-    "options": [
-      "Automation tar över beslut",
-      "Det påverkar aldrig beslut",
-      "Du kan pressas att ta onödiga risker",
-      "Du blir alltid mer försiktig"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
-  },
-  {
-    "id": "Q13-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Du kan pressas att ta onödiga risker",
-    "options": [
-      "Du kan pressas att ta onödiga risker",
-      "Det påverkar aldrig beslut",
-      "Du blir alltid mer försiktig",
-      "Automation tar över beslut"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
-  },
-  {
-    "id": "Q13-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 4.7? Du kan pressas att ta onödiga risker",
-    "options": [
-      "Det påverkar aldrig beslut",
-      "Du blir alltid mer försiktig",
-      "Du kan pressas att ta onödiga risker",
-      "Automation tar över beslut"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
-  },
-  {
-    "id": "Q13-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Du kan pressas att ta onödiga risker",
-    "options": [
-      "Det påverkar aldrig beslut",
-      "Du blir alltid mer försiktig",
-      "Du kan pressas att ta onödiga risker",
-      "Automation tar över beslut"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
-  },
-  {
-    "id": "Q13-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Du kan pressas att ta onödiga risker",
-    "options": [
-      "Automation tar över beslut",
-      "Du blir alltid mer försiktig",
-      "Du kan pressas att ta onödiga risker",
-      "Det påverkar aldrig beslut"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 4.7",
-    "expl": "Negativt grupptryck kan pressa dig att ta onödiga risker."
-  },
-  {
-    "id": "Q14-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Risk för överförtroende och sämre övervakning?",
-    "options": [
-      "Lägre batteriförbrukning",
-      "Risk för överförtroende och sämre övervakning",
-      "Bättre manuell flygning",
-      "Alltid högre säkerhet"
+      "Ökat blodtryck",
+      "Mikrosömn",
+      "Ökad handsvett",
+      "Sämre mörkerseende"
     ],
     "correctIndex": 1,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
+    "ref": "Kap 4.4",
+    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
   },
   {
-    "id": "Q14-1",
+    "id": "Q7_v5",
     "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Risk för överförtroende och sämre övervakning",
+    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
     "options": [
-      "Risk för överförtroende och sämre övervakning",
-      "Alltid högre säkerhet",
-      "Lägre batteriförbrukning",
-      "Bättre manuell flygning"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
-  },
-  {
-    "id": "Q14-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Risk för överförtroende och sämre övervakning",
-    "options": [
-      "Risk för överförtroende och sämre övervakning",
-      "Lägre batteriförbrukning",
-      "Alltid högre säkerhet",
-      "Bättre manuell flygning"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
-  },
-  {
-    "id": "Q14-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Risk för överförtroende och sämre övervakning",
-    "options": [
-      "Bättre manuell flygning",
-      "Alltid högre säkerhet",
-      "Lägre batteriförbrukning",
-      "Risk för överförtroende och sämre övervakning"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
-  },
-  {
-    "id": "Q14-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Risk för överförtroende och sämre övervakning",
-    "options": [
-      "Risk för överförtroende och sämre övervakning",
-      "Lägre batteriförbrukning",
-      "Bättre manuell flygning",
-      "Alltid högre säkerhet"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
-  },
-  {
-    "id": "Q14-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 4.9? Risk för överförtroende och sämre övervakning",
-    "options": [
-      "Lägre batteriförbrukning",
-      "Risk för överförtroende och sämre övervakning",
-      "Alltid högre säkerhet",
-      "Bättre manuell flygning"
+      "Ökat blodtryck",
+      "Mikrosömn",
+      "Ökad handsvett",
+      "Sämre mörkerseende"
     ],
     "correctIndex": 1,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
+    "ref": "Kap 4.4",
+    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
   },
   {
-    "id": "Q14-6",
+    "id": "Q8",
     "topic": "ALL",
-    "text": "När är följande riktigt? Risk för överförtroende och sämre övervakning",
-    "options": [
-      "Risk för överförtroende och sämre övervakning",
-      "Lägre batteriförbrukning",
-      "Alltid högre säkerhet",
-      "Bättre manuell flygning"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
-  },
-  {
-    "id": "Q14-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Risk för överförtroende och sämre övervakning",
-    "options": [
-      "Alltid högre säkerhet",
-      "Risk för överförtroende och sämre övervakning",
-      "Bättre manuell flygning",
-      "Lägre batteriförbrukning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.9",
-    "expl": "Överdriven automation kan ge överförtroende och sämre övervakning."
-  },
-  {
-    "id": "Q15-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Kalibrera kompass/IMU endast vid behov/indikation?",
-    "options": [
-      "Kalibrera aldrig",
-      "Kalibrera inför varje flygning",
-      "Kalibrera bara efter landning",
-      "Kalibrera kompass/IMU endast vid behov/indikation"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera aldrig",
-      "Kalibrera bara efter landning",
-      "Kalibrera kompass/IMU endast vid behov/indikation",
-      "Kalibrera inför varje flygning"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera bara efter landning",
-      "Kalibrera kompass/IMU endast vid behov/indikation",
-      "Kalibrera aldrig",
-      "Kalibrera inför varje flygning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera aldrig",
-      "Kalibrera bara efter landning",
-      "Kalibrera inför varje flygning",
-      "Kalibrera kompass/IMU endast vid behov/indikation"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera kompass/IMU endast vid behov/indikation",
-      "Kalibrera inför varje flygning",
-      "Kalibrera aldrig",
-      "Kalibrera bara efter landning"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 5.2? Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera aldrig",
-      "Kalibrera kompass/IMU endast vid behov/indikation",
-      "Kalibrera inför varje flygning",
-      "Kalibrera bara efter landning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera kompass/IMU endast vid behov/indikation",
-      "Kalibrera bara efter landning",
-      "Kalibrera aldrig",
-      "Kalibrera inför varje flygning"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q15-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Kalibrera kompass/IMU endast vid behov/indikation",
-    "options": [
-      "Kalibrera kompass/IMU endast vid behov/indikation",
-      "Kalibrera bara efter landning",
-      "Kalibrera inför varje flygning",
-      "Kalibrera aldrig"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.2",
-    "expl": "Kalibrera kompass/IMU endast vid behov/indikation, inte slentrian."
-  },
-  {
-    "id": "Q16-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Väj och landa bort från konfliktytan?",
-    "options": [
-      "Stäng av fjärrkontrollen",
-      "Stig till maxhöjd",
-      "Väj och landa bort från konfliktytan",
-      "Fortsätt som vanligt"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
-  },
-  {
-    "id": "Q16-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Väj och landa bort från konfliktytan",
+    "text": "Vilken åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
     "options": [
       "Stig till maxhöjd",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen",
-      "Fortsätt som vanligt"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
-  },
-  {
-    "id": "Q16-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Väj och landa bort från konfliktytan",
-    "options": [
-      "Fortsätt som vanligt",
-      "Stig till maxhöjd",
-      "Stäng av fjärrkontrollen",
-      "Väj och landa bort från konfliktytan"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
-  },
-  {
-    "id": "Q16-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Väj och landa bort från konfliktytan",
-    "options": [
       "Fortsätt som vanligt",
       "Väj och landa bort från konfliktytan",
-      "Stig till maxhöjd",
       "Stäng av fjärrkontrollen"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q16-4",
+    "id": "Q8_v1",
     "topic": "ALL",
-    "text": "Vilket är korrekt? Väj och landa bort från konfliktytan",
+    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
     "options": [
-      "Stäng av fjärrkontrollen",
-      "Fortsätt som vanligt",
-      "Stig till maxhöjd",
-      "Väj och landa bort från konfliktytan"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
-  },
-  {
-    "id": "Q16-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 5.3? Väj och landa bort från konfliktytan",
-    "options": [
-      "Stäng av fjärrkontrollen",
-      "Väj och landa bort från konfliktytan",
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
-  },
-  {
-    "id": "Q16-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Väj och landa bort från konfliktytan",
-    "options": [
-      "Väj och landa bort från konfliktytan",
       "Stig till maxhöjd",
       "Fortsätt som vanligt",
+      "Väj och landa bort från konfliktytan",
       "Stäng av fjärrkontrollen"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q16-7",
+    "id": "Q8_v2",
     "topic": "ALL",
-    "text": "Markera det som stämmer: Väj och landa bort från konfliktytan",
+    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
     "options": [
+      "Stig till maxhöjd",
+      "Fortsätt som vanligt",
       "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen",
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg – väj/landa bort från konfliktytan."
-  },
-  {
-    "id": "Q17-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Avsluta kontrollerat om risk uppstår?",
-    "options": [
-      "Fortsätt via FPV utan VLOS",
-      "Ignorera tills varning kommer",
-      "Stig till maxhöjd",
-      "Avsluta kontrollerat om risk uppstår"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
-  },
-  {
-    "id": "Q17-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Avsluta kontrollerat om risk uppstår",
-    "options": [
-      "Avsluta kontrollerat om risk uppstår",
-      "Ignorera tills varning kommer",
-      "Stig till maxhöjd",
-      "Fortsätt via FPV utan VLOS"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
-  },
-  {
-    "id": "Q17-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Avsluta kontrollerat om risk uppstår",
-    "options": [
-      "Fortsätt via FPV utan VLOS",
-      "Stig till maxhöjd",
-      "Ignorera tills varning kommer",
-      "Avsluta kontrollerat om risk uppstår"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
-  },
-  {
-    "id": "Q17-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Avsluta kontrollerat om risk uppstår",
-    "options": [
-      "Ignorera tills varning kommer",
-      "Stig till maxhöjd",
-      "Avsluta kontrollerat om risk uppstår",
-      "Fortsätt via FPV utan VLOS"
+      "Stäng av fjärrkontrollen"
     ],
     "correctIndex": 2,
     "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q17-4",
+    "id": "Q8_v3",
     "topic": "ALL",
-    "text": "Vilket är korrekt? Avsluta kontrollerat om risk uppstår",
+    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
     "options": [
-      "Fortsätt via FPV utan VLOS",
-      "Avsluta kontrollerat om risk uppstår",
-      "Ignorera tills varning kommer",
-      "Stig till maxhöjd"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
-  },
-  {
-    "id": "Q17-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 5.3? Avsluta kontrollerat om risk uppstår",
-    "options": [
-      "Ignorera tills varning kommer",
       "Stig till maxhöjd",
-      "Avsluta kontrollerat om risk uppstår",
-      "Fortsätt via FPV utan VLOS"
+      "Fortsätt som vanligt",
+      "Väj och landa bort från konfliktytan",
+      "Stäng av fjärrkontrollen"
     ],
     "correctIndex": 2,
     "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q17-6",
+    "id": "Q8_v4",
     "topic": "ALL",
-    "text": "När är följande riktigt? Avsluta kontrollerat om risk uppstår",
+    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
     "options": [
-      "Fortsätt via FPV utan VLOS",
       "Stig till maxhöjd",
-      "Avsluta kontrollerat om risk uppstår",
-      "Ignorera tills varning kommer"
+      "Fortsätt som vanligt",
+      "Väj och landa bort från konfliktytan",
+      "Stäng av fjärrkontrollen"
     ],
     "correctIndex": 2,
     "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q17-7",
+    "id": "Q8_v5",
     "topic": "ALL",
-    "text": "Markera det som stämmer: Avsluta kontrollerat om risk uppstår",
+    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
     "options": [
       "Stig till maxhöjd",
-      "Fortsätt via FPV utan VLOS",
-      "Ignorera tills varning kommer",
-      "Avsluta kontrollerat om risk uppstår"
+      "Fortsätt som vanligt",
+      "Väj och landa bort från konfliktytan",
+      "Stäng av fjärrkontrollen"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "ref": "Kap 5.3",
-    "expl": "Avsluta kontrollerat om risk uppstår (t.ex. vindökning, tappad VLOS, oväntade personer)."
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q18-0",
+    "id": "Q9",
     "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Return-To-Home (RTH) och korrekt hemhöjd?",
+    "text": "Vad används Return-To-Home (RTH) till?",
     "options": [
-      "Hyperlapse",
-      "ADS-B IN",
-      "ND-filter",
-      "Return-To-Home (RTH) och korrekt hemhöjd"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
-  },
-  {
-    "id": "Q18-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Return-To-Home (RTH) och korrekt hemhöjd",
-    "options": [
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "Hyperlapse",
-      "ADS-B IN",
-      "ND-filter"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
-  },
-  {
-    "id": "Q18-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Return-To-Home (RTH) och korrekt hemhöjd",
-    "options": [
-      "Hyperlapse",
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "ND-filter",
-      "ADS-B IN"
+      "För att stänga av GNSS",
+      "För att drönaren ska återvända vid länkbortfall",
+      "För att aktivera hyperlapse",
+      "För att kalibrera propellrar"
     ],
     "correctIndex": 1,
     "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
+    "expl": "RTH hjälper drönaren återvända automatiskt."
   },
   {
-    "id": "Q18-3",
+    "id": "Q9_v1",
     "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Return-To-Home (RTH) och korrekt hemhöjd",
+    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
     "options": [
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "ADS-B IN",
-      "Hyperlapse",
-      "ND-filter"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
-  },
-  {
-    "id": "Q18-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Return-To-Home (RTH) och korrekt hemhöjd",
-    "options": [
-      "ADS-B IN",
-      "Hyperlapse",
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "ND-filter"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
-  },
-  {
-    "id": "Q18-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 6.2? Return-To-Home (RTH) och korrekt hemhöjd",
-    "options": [
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "Hyperlapse",
-      "ND-filter",
-      "ADS-B IN"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
-  },
-  {
-    "id": "Q18-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Return-To-Home (RTH) och korrekt hemhöjd",
-    "options": [
-      "ADS-B IN",
-      "Hyperlapse",
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "ND-filter"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
-  },
-  {
-    "id": "Q18-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Return-To-Home (RTH) och korrekt hemhöjd",
-    "options": [
-      "ADS-B IN",
-      "Return-To-Home (RTH) och korrekt hemhöjd",
-      "Hyperlapse",
-      "ND-filter"
+      "För att stänga av GNSS",
+      "För att drönaren ska återvända vid länkbortfall",
+      "För att aktivera hyperlapse",
+      "För att kalibrera propellrar"
     ],
     "correctIndex": 1,
     "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända vid länkförlust – sätt rätt RTH-höjd."
+    "expl": "RTH hjälper drönaren återvända automatiskt."
   },
   {
-    "id": "Q19-0",
+    "id": "Q9_v2",
+    "topic": "ALL",
+    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
+    "options": [
+      "För att stänga av GNSS",
+      "För att drönaren ska återvända vid länkbortfall",
+      "För att aktivera hyperlapse",
+      "För att kalibrera propellrar"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2",
+    "expl": "RTH hjälper drönaren återvända automatiskt."
+  },
+  {
+    "id": "Q9_v3",
+    "topic": "ALL",
+    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
+    "options": [
+      "För att stänga av GNSS",
+      "För att drönaren ska återvända vid länkbortfall",
+      "För att aktivera hyperlapse",
+      "För att kalibrera propellrar"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2",
+    "expl": "RTH hjälper drönaren återvända automatiskt."
+  },
+  {
+    "id": "Q9_v4",
+    "topic": "ALL",
+    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
+    "options": [
+      "För att stänga av GNSS",
+      "För att drönaren ska återvända vid länkbortfall",
+      "För att aktivera hyperlapse",
+      "För att kalibrera propellrar"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2",
+    "expl": "RTH hjälper drönaren återvända automatiskt."
+  },
+  {
+    "id": "Q9_v5",
+    "topic": "ALL",
+    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
+    "options": [
+      "För att stänga av GNSS",
+      "För att drönaren ska återvända vid länkbortfall",
+      "För att aktivera hyperlapse",
+      "För att kalibrera propellrar"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2",
+    "expl": "RTH hjälper drönaren återvända automatiskt."
+  },
+  {
+    "id": "Q10",
+    "topic": "ALL",
+    "text": "När kan spridning av drönarbilder kräva tillstånd?",
+    "options": [
+      "Vid skyddsvärd geografisk information",
+      "När horisonten saknas",
+      "I privat hem",
+      "Aldrig"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+  },
+  {
+    "id": "Q10_v1",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
+    "options": [
+      "Vid skyddsvärd geografisk information",
+      "När horisonten saknas",
+      "I privat hem",
+      "Aldrig"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+  },
+  {
+    "id": "Q10_v2",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
+    "options": [
+      "Vid skyddsvärd geografisk information",
+      "När horisonten saknas",
+      "I privat hem",
+      "Aldrig"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+  },
+  {
+    "id": "Q10_v3",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
+    "options": [
+      "Vid skyddsvärd geografisk information",
+      "När horisonten saknas",
+      "I privat hem",
+      "Aldrig"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+  },
+  {
+    "id": "Q10_v4",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
+    "options": [
+      "Vid skyddsvärd geografisk information",
+      "När horisonten saknas",
+      "I privat hem",
+      "Aldrig"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+  },
+  {
+    "id": "Q10_v5",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
+    "options": [
+      "Vid skyddsvärd geografisk information",
+      "När horisonten saknas",
+      "I privat hem",
+      "Aldrig"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+  },
+  {
+    "id": "Q11",
+    "topic": "ALL",
+    "text": "När är ansvarsförsäkring ett lagkrav för drönare?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "För alla drönare i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg = krav. Rekommenderas även under."
+  },
+  {
+    "id": "Q11_v1",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "För alla drönare i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg = krav. Rekommenderas även under."
+  },
+  {
+    "id": "Q11_v2",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "För alla drönare i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg = krav. Rekommenderas även under."
+  },
+  {
+    "id": "Q11_v3",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "För alla drönare i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg = krav. Rekommenderas även under."
+  },
+  {
+    "id": "Q11_v4",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "För alla drönare i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg = krav. Rekommenderas även under."
+  },
+  {
+    "id": "Q11_v5",
+    "topic": "ALL",
+    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "För alla drönare i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg = krav. Rekommenderas även under."
+  },
+  {
+    "id": "Q12",
     "topic": "A2",
-    "text": "Vad betyder detta i praktiken: Längre bromssträcka, drift och högre batteriförbrukning?",
+    "text": "Hur påverkar stark vind drönarflygning?",
     "options": [
-      "Alltid stabilare",
+      "Kortare bromssträcka",
       "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Kortare bromssträcka",
-      "Ingen påverkan"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
-  },
-  {
-    "id": "Q19-1",
-    "topic": "A2",
-    "text": "Vilket alternativ stämmer bäst? Längre bromssträcka, drift och högre batteriförbrukning",
-    "options": [
-      "Ingen påverkan",
-      "Kortare bromssträcka",
-      "Alltid stabilare",
-      "Längre bromssträcka, drift och högre batteriförbrukning"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
-  },
-  {
-    "id": "Q19-2",
-    "topic": "A2",
-    "text": "Välj rätt påstående: Längre bromssträcka, drift och högre batteriförbrukning",
-    "options": [
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Kortare bromssträcka",
       "Ingen påverkan",
       "Alltid stabilare"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
+    "expl": "Vind ger drift och ökad effektförbrukning."
   },
   {
-    "id": "Q19-3",
+    "id": "Q12_v1",
     "topic": "A2",
-    "text": "Vad gäller enligt materialet? Längre bromssträcka, drift och högre batteriförbrukning",
+    "text": "På vilket sätt påverkar stark vind drönarflygning?",
     "options": [
-      "Längre bromssträcka, drift och högre batteriförbrukning",
       "Kortare bromssträcka",
+      "Längre bromssträcka, drift och högre batteriförbrukning",
       "Ingen påverkan",
       "Alltid stabilare"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
+    "expl": "Vind ger drift och ökad effektförbrukning."
   },
   {
-    "id": "Q19-4",
+    "id": "Q12_v2",
     "topic": "A2",
-    "text": "Vilket är korrekt? Längre bromssträcka, drift och högre batteriförbrukning",
-    "options": [
-      "Kortare bromssträcka",
-      "Ingen påverkan",
-      "Alltid stabilare",
-      "Längre bromssträcka, drift och högre batteriförbrukning"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
-  },
-  {
-    "id": "Q19-5",
-    "topic": "A2",
-    "text": "Vad är korrekt enligt Kap 10.1? Längre bromssträcka, drift och högre batteriförbrukning",
-    "options": [
-      "Kortare bromssträcka",
-      "Alltid stabilare",
-      "Ingen påverkan",
-      "Längre bromssträcka, drift och högre batteriförbrukning"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
-  },
-  {
-    "id": "Q19-6",
-    "topic": "A2",
-    "text": "När är följande riktigt? Längre bromssträcka, drift och högre batteriförbrukning",
+    "text": "På vilket sätt påverkar stark vind drönarflygning?",
     "options": [
       "Kortare bromssträcka",
       "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Alltid stabilare",
-      "Ingen påverkan"
+      "Ingen påverkan",
+      "Alltid stabilare"
     ],
     "correctIndex": 1,
     "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
+    "expl": "Vind ger drift och ökad effektförbrukning."
   },
   {
-    "id": "Q19-7",
+    "id": "Q12_v3",
     "topic": "A2",
-    "text": "Markera det som stämmer: Längre bromssträcka, drift och högre batteriförbrukning",
+    "text": "På vilket sätt påverkar stark vind drönarflygning?",
     "options": [
-      "Längre bromssträcka, drift och högre batteriförbrukning",
       "Kortare bromssträcka",
-      "Alltid stabilare",
-      "Ingen påverkan"
+      "Längre bromssträcka, drift och högre batteriförbrukning",
+      "Ingen påverkan",
+      "Alltid stabilare"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "ref": "Kap 10.1",
-    "expl": "Stark vind ger drift, längre bromssträcka och högre förbrukning."
+    "expl": "Vind ger drift och ökad effektförbrukning."
   },
   {
-    "id": "Q20-0",
+    "id": "Q12_v4",
     "topic": "A2",
-    "text": "Vad betyder detta i praktiken: Sikt, sensorer och elektronik påverkas negativt?",
+    "text": "På vilket sätt påverkar stark vind drönarflygning?",
     "options": [
-      "Propellrar greppar bättre",
-      "Kyler batteriet optimalt",
-      "Sikt, sensorer och elektronik påverkas negativt",
-      "Förbättrar GNSS"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-1",
-    "topic": "A2",
-    "text": "Vilket alternativ stämmer bäst? Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Förbättrar GNSS",
-      "Kyler batteriet optimalt",
-      "Sikt, sensorer och elektronik påverkas negativt",
-      "Propellrar greppar bättre"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-2",
-    "topic": "A2",
-    "text": "Välj rätt påstående: Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Sikt, sensorer och elektronik påverkas negativt",
-      "Förbättrar GNSS",
-      "Propellrar greppar bättre",
-      "Kyler batteriet optimalt"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-3",
-    "topic": "A2",
-    "text": "Vad gäller enligt materialet? Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Kyler batteriet optimalt",
-      "Förbättrar GNSS",
-      "Sikt, sensorer och elektronik påverkas negativt",
-      "Propellrar greppar bättre"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-4",
-    "topic": "A2",
-    "text": "Vilket är korrekt? Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Kyler batteriet optimalt",
-      "Propellrar greppar bättre",
-      "Förbättrar GNSS",
-      "Sikt, sensorer och elektronik påverkas negativt"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-5",
-    "topic": "A2",
-    "text": "Vad är korrekt enligt Kap 10.2? Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Förbättrar GNSS",
-      "Propellrar greppar bättre",
-      "Kyler batteriet optimalt",
-      "Sikt, sensorer och elektronik påverkas negativt"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-6",
-    "topic": "A2",
-    "text": "När är följande riktigt? Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Propellrar greppar bättre",
-      "Förbättrar GNSS",
-      "Kyler batteriet optimalt",
-      "Sikt, sensorer och elektronik påverkas negativt"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q20-7",
-    "topic": "A2",
-    "text": "Markera det som stämmer: Sikt, sensorer och elektronik påverkas negativt",
-    "options": [
-      "Sikt, sensorer och elektronik påverkas negativt",
-      "Förbättrar GNSS",
-      "Propellrar greppar bättre",
-      "Kyler batteriet optimalt"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 10.2",
-    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik negativt."
-  },
-  {
-    "id": "Q21-0",
-    "topic": "A2",
-    "text": "Vad betyder detta i praktiken: Spänningsfall och minskad kapacitet i kyla?",
-    "options": [
-      "Laddar snabbare",
-      "Spänningsfall och minskad kapacitet i kyla",
+      "Kortare bromssträcka",
+      "Längre bromssträcka, drift och högre batteriförbrukning",
       "Ingen påverkan",
-      "Levererar mer ström"
+      "Alltid stabilare"
     ],
     "correctIndex": 1,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
+    "ref": "Kap 10.1",
+    "expl": "Vind ger drift och ökad effektförbrukning."
   },
   {
-    "id": "Q21-1",
+    "id": "Q12_v5",
     "topic": "A2",
-    "text": "Vilket alternativ stämmer bäst? Spänningsfall och minskad kapacitet i kyla",
+    "text": "På vilket sätt påverkar stark vind drönarflygning?",
     "options": [
-      "Levererar mer ström",
-      "Spänningsfall och minskad kapacitet i kyla",
-      "Laddar snabbare",
-      "Ingen påverkan"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q21-2",
-    "topic": "A2",
-    "text": "Välj rätt påstående: Spänningsfall och minskad kapacitet i kyla",
-    "options": [
+      "Kortare bromssträcka",
+      "Längre bromssträcka, drift och högre batteriförbrukning",
       "Ingen påverkan",
-      "Spänningsfall och minskad kapacitet i kyla",
-      "Laddar snabbare",
-      "Levererar mer ström"
+      "Alltid stabilare"
     ],
     "correctIndex": 1,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q21-3",
-    "topic": "A2",
-    "text": "Vad gäller enligt materialet? Spänningsfall och minskad kapacitet i kyla",
-    "options": [
-      "Laddar snabbare",
-      "Spänningsfall och minskad kapacitet i kyla",
-      "Ingen påverkan",
-      "Levererar mer ström"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q21-4",
-    "topic": "A2",
-    "text": "Vilket är korrekt? Spänningsfall och minskad kapacitet i kyla",
-    "options": [
-      "Levererar mer ström",
-      "Ingen påverkan",
-      "Laddar snabbare",
-      "Spänningsfall och minskad kapacitet i kyla"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q21-5",
-    "topic": "A2",
-    "text": "Vad är korrekt enligt Kap 10.3? Spänningsfall och minskad kapacitet i kyla",
-    "options": [
-      "Levererar mer ström",
-      "Ingen påverkan",
-      "Laddar snabbare",
-      "Spänningsfall och minskad kapacitet i kyla"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q21-6",
-    "topic": "A2",
-    "text": "När är följande riktigt? Spänningsfall och minskad kapacitet i kyla",
-    "options": [
-      "Laddar snabbare",
-      "Ingen påverkan",
-      "Levererar mer ström",
-      "Spänningsfall och minskad kapacitet i kyla"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q21-7",
-    "topic": "A2",
-    "text": "Markera det som stämmer: Spänningsfall och minskad kapacitet i kyla",
-    "options": [
-      "Laddar snabbare",
-      "Levererar mer ström",
-      "Ingen påverkan",
-      "Spänningsfall och minskad kapacitet i kyla"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 10.3",
-    "expl": "Kyla kan ge spänningsfall och minskad kapacitet – förvärm och planera marginal."
-  },
-  {
-    "id": "Q22-0",
-    "topic": "A2",
-    "text": "Vad betyder detta i praktiken: Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)?",
-    "options": [
-      "Horisontellt avstånd = halva höjden",
-      "Maxhöjd = avstånd till person",
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Gäller bara i A3"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-1",
-    "topic": "A2",
-    "text": "Vilket alternativ stämmer bäst? Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Horisontellt avstånd = halva höjden",
-      "Gäller bara i A3",
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Maxhöjd = avstånd till person"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-2",
-    "topic": "A2",
-    "text": "Välj rätt påstående: Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Maxhöjd = avstånd till person",
-      "Gäller bara i A3",
-      "Horisontellt avstånd = halva höjden"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-3",
-    "topic": "A2",
-    "text": "Vad gäller enligt materialet? Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Horisontellt avstånd = halva höjden",
-      "Gäller bara i A3",
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Maxhöjd = avstånd till person"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-4",
-    "topic": "A2",
-    "text": "Vilket är korrekt? Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Maxhöjd = avstånd till person",
-      "Horisontellt avstånd = halva höjden",
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Gäller bara i A3"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-5",
-    "topic": "A2",
-    "text": "Vad är korrekt enligt Kap 12.3? Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Gäller bara i A3",
-      "Horisontellt avstånd = halva höjden",
-      "Maxhöjd = avstånd till person"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-6",
-    "topic": "A2",
-    "text": "När är följande riktigt? Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Maxhöjd = avstånd till person",
-      "Horisontellt avstånd = halva höjden",
-      "Gäller bara i A3",
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q22-7",
-    "topic": "A2",
-    "text": "Markera det som stämmer: Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-    "options": [
-      "Gäller bara i A3",
-      "Planera så att ett haveri inte passerar människor (anpassa höjd/avstånd)",
-      "Horisontellt avstånd = halva höjden",
-      "Maxhöjd = avstånd till person"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 12.3",
-    "expl": "1:1-regeln: planera höjd/avstånd så ett haveri inte passerar där människor finns."
-  },
-  {
-    "id": "Q23-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Spridningstillstånd kan krävas för skyddsvärd geografisk information?",
-    "options": [
-      "Aldrig nödvändigt",
-      "Gäller bara foton under 50 m",
-      "Gäller bara utomlands",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Gäller bara utomlands",
-      "Gäller bara foton under 50 m",
-      "Aldrig nödvändigt",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Gäller bara foton under 50 m",
-      "Aldrig nödvändigt",
-      "Gäller bara utomlands",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Gäller bara foton under 50 m",
-      "Aldrig nödvändigt",
-      "Gäller bara utomlands",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Aldrig nödvändigt",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-      "Gäller bara utomlands",
-      "Gäller bara foton under 50 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 7.2? Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Gäller bara utomlands",
-      "Aldrig nödvändigt",
-      "Gäller bara foton under 50 m",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Gäller bara foton under 50 m",
-      "Gäller bara utomlands",
-      "Aldrig nödvändigt",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q23-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Spridningstillstånd kan krävas för skyddsvärd geografisk information",
-    "options": [
-      "Gäller bara foton under 50 m",
-      "Aldrig nödvändigt",
-      "Gäller bara utomlands",
-      "Spridningstillstånd kan krävas för skyddsvärd geografisk information"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
-  },
-  {
-    "id": "Q24-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: GDPR gäller – identifierbara personer är personuppgifter?",
-    "options": [
-      "GDPR gäller inte drönare",
-      "Bilder är aldrig personuppgift",
-      "Gäller bara >250 anställda",
-      "GDPR gäller – identifierbara personer är personuppgifter"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "Bilder är aldrig personuppgift",
-      "GDPR gäller inte drönare",
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Gäller bara >250 anställda"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "Bilder är aldrig personuppgift",
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Gäller bara >250 anställda",
-      "GDPR gäller inte drönare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Gäller bara >250 anställda",
-      "Bilder är aldrig personuppgift",
-      "GDPR gäller inte drönare"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "Bilder är aldrig personuppgift",
-      "GDPR gäller inte drönare",
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Gäller bara >250 anställda"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 7.1? GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Bilder är aldrig personuppgift",
-      "Gäller bara >250 anställda",
-      "GDPR gäller inte drönare"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Gäller bara >250 anställda",
-      "GDPR gäller inte drönare",
-      "Bilder är aldrig personuppgift"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q24-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: GDPR gäller – identifierbara personer är personuppgifter",
-    "options": [
-      "GDPR gäller inte drönare",
-      "GDPR gäller – identifierbara personer är personuppgifter",
-      "Gäller bara >250 anställda",
-      "Bilder är aldrig personuppgift"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 7.1",
-    "expl": "GDPR gäller vid identifierbara personer – välj rätt grund och minimera."
-  },
-  {
-    "id": "Q25-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Ansvarsförsäkring krävs över 20 kg?",
-    "options": [
-      "Aldrig krav i Sverige",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Endast i A2",
-      "Endast under 250 g"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast under 250 g",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Endast i A2",
-      "Aldrig krav i Sverige"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast under 250 g",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Endast i A2",
-      "Aldrig krav i Sverige"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast i A2",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Endast under 250 g",
-      "Aldrig krav i Sverige"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast i A2",
-      "Endast under 250 g",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Aldrig krav i Sverige"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 8? Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast i A2",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Endast under 250 g",
-      "Aldrig krav i Sverige"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast under 250 g",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Aldrig krav i Sverige",
-      "Endast i A2"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q25-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Ansvarsförsäkring krävs över 20 kg",
-    "options": [
-      "Endast i A2",
-      "Ansvarsförsäkring krävs över 20 kg",
-      "Endast under 250 g",
-      "Aldrig krav i Sverige"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 8",
-    "expl": "Drönare >20 kg: krav på ansvarsförsäkring (rekommenderas i övrigt)."
-  },
-  {
-    "id": "Q26-0",
-    "topic": "ALL",
-    "text": "Vad betyder detta i praktiken: Registrering krävs vid kamera/sensor eller ≥250 g?",
-    "options": [
-      "Endast över 25 kg",
-      "Endast i A2",
-      "Aldrig krav",
-      "Registrering krävs vid kamera/sensor eller ≥250 g"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-1",
-    "topic": "ALL",
-    "text": "Vilket alternativ stämmer bäst? Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Endast i A2",
-      "Registrering krävs vid kamera/sensor eller ≥250 g",
-      "Endast över 25 kg",
-      "Aldrig krav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Aldrig krav",
-      "Endast över 25 kg",
-      "Registrering krävs vid kamera/sensor eller ≥250 g",
-      "Endast i A2"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-3",
-    "topic": "ALL",
-    "text": "Vad gäller enligt materialet? Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Registrering krävs vid kamera/sensor eller ≥250 g",
-      "Aldrig krav",
-      "Endast i A2",
-      "Endast över 25 kg"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-4",
-    "topic": "ALL",
-    "text": "Vilket är korrekt? Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Endast i A2",
-      "Endast över 25 kg",
-      "Aldrig krav",
-      "Registrering krävs vid kamera/sensor eller ≥250 g"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-5",
-    "topic": "ALL",
-    "text": "Vad är korrekt enligt Kap 3.1? Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Endast i A2",
-      "Registrering krävs vid kamera/sensor eller ≥250 g",
-      "Aldrig krav",
-      "Endast över 25 kg"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Registrering krävs vid kamera/sensor eller ≥250 g",
-      "Endast i A2",
-      "Aldrig krav",
-      "Endast över 25 kg"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q26-7",
-    "topic": "ALL",
-    "text": "Markera det som stämmer: Registrering krävs vid kamera/sensor eller ≥250 g",
-    "options": [
-      "Endast i A2",
-      "Registrering krävs vid kamera/sensor eller ≥250 g",
-      "Aldrig krav",
-      "Endast över 25 kg"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.1",
-    "expl": "Operatörsregistrering krävs bl.a. vid kamera/sensor eller ≥250 g."
-  },
-  {
-    "id": "Q1-0-X0",
-    "topic": "ALL",
-    "text": "Vilken betyder detta i praktiken: Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel?",
-    "options": [
-      "Att drönaren alltid delar position via Remote ID",
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att du får flyga bortom synhåll om du har spotter"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-1-X1",
-    "topic": "ALL",
-    "text": "Vilka alternativ stämmer bäst? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Att videolänken (FPV) fungerar korrekt"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-2-X2",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-3-X3",
-    "topic": "ALL",
-    "text": "Vilken gäller enligt materialet? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-4-X4",
-    "topic": "ALL",
-    "text": "Vilka är korrekt? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Att drönaren alltid delar position via Remote ID",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att du får flyga bortom synhåll om du har spotter"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-5-X5",
-    "topic": "ALL",
-    "text": "Vilken är korrekt enligt Kap 5.3? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att drönaren alltid delar position via Remote ID",
-      "Att du får flyga bortom synhåll om du har spotter"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-6-X6",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att drönaren alltid delar position via Remote ID",
-      "Att videolänken (FPV) fungerar korrekt",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q1-7-X7",
-    "topic": "ALL",
-    "text": "Välj det som stämmer: Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-    "options": [
-      "Att videolänken (FPV) fungerar korrekt",
-      "Visuell siktlinje mellan fjärrpilot och drönare utan hjälpmedel",
-      "Att du får flyga bortom synhåll om du har spotter",
-      "Att drönaren alltid delar position via Remote ID"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 5.3",
-    "expl": "VLOS = Visual Line Of Sight. Du ska kunna se drönaren utan kikare."
-  },
-  {
-    "id": "Q2-0-X8",
-    "topic": "ALL",
-    "text": "Vilken betyder detta i praktiken: 120 m AGL?",
-    "options": [
-      "60 m AGL",
-      "150 m AGL",
-      "90 m AGL",
-      "120 m AGL"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-1-X9",
-    "topic": "ALL",
-    "text": "Vilka alternativ stämmer bäst? 120 m AGL",
-    "options": [
-      "150 m AGL",
-      "120 m AGL",
-      "60 m AGL",
-      "90 m AGL"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-2-X10",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: 120 m AGL",
-    "options": [
-      "150 m AGL",
-      "90 m AGL",
-      "120 m AGL",
-      "60 m AGL"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-3-X11",
-    "topic": "ALL",
-    "text": "Vilken gäller enligt materialet? 120 m AGL",
-    "options": [
-      "120 m AGL",
-      "150 m AGL",
-      "90 m AGL",
-      "60 m AGL"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-4-X12",
-    "topic": "ALL",
-    "text": "Vilka är korrekt? 120 m AGL",
-    "options": [
-      "120 m AGL",
-      "90 m AGL",
-      "60 m AGL",
-      "150 m AGL"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-5-X13",
-    "topic": "ALL",
-    "text": "Vilken är korrekt enligt Kap 3? 120 m AGL",
-    "options": [
-      "150 m AGL",
-      "120 m AGL",
-      "90 m AGL",
-      "60 m AGL"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-6-X14",
-    "topic": "ALL",
-    "text": "När är följande riktigt? 120 m AGL",
-    "options": [
-      "60 m AGL",
-      "90 m AGL",
-      "120 m AGL",
-      "150 m AGL"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q2-7-X15",
-    "topic": "ALL",
-    "text": "Välj det som stämmer: 120 m AGL",
-    "options": [
-      "120 m AGL",
-      "60 m AGL",
-      "150 m AGL",
-      "90 m AGL"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen i öppen kategori är 120 m AGL om inget annat anges."
-  },
-  {
-    "id": "Q3-0-X16",
-    "topic": "A2",
-    "text": "Vilken betyder detta i praktiken: 30 m (5 m med låghastighetsläge)?",
-    "options": [
-      "50 m",
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "150 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-1-X17",
-    "topic": "A2",
-    "text": "Vilka alternativ stämmer bäst? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "50 m",
-      "30 m (5 m med låghastighetsläge)",
-      "150 m",
-      "Över folksamling tillåtet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-2-X18",
-    "topic": "A2",
-    "text": "Välj rätt påstående: 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "50 m",
-      "150 m"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-3-X19",
-    "topic": "A2",
-    "text": "Vilken gäller enligt materialet? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "150 m",
-      "50 m",
-      "Över folksamling tillåtet",
-      "30 m (5 m med låghastighetsläge)"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-4-X20",
-    "topic": "A2",
-    "text": "Vilka är korrekt? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "150 m",
-      "Över folksamling tillåtet",
-      "30 m (5 m med låghastighetsläge)",
-      "50 m"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-5-X21",
-    "topic": "A2",
-    "text": "Vilken är korrekt enligt Kap 3.3 A2? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "150 m",
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "50 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-6-X22",
-    "topic": "A2",
-    "text": "När är följande riktigt? 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "50 m",
-      "30 m (5 m med låghastighetsläge)",
-      "Över folksamling tillåtet",
-      "150 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q3-7-X23",
-    "topic": "A2",
-    "text": "Välj det som stämmer: 30 m (5 m med låghastighetsläge)",
-    "options": [
-      "Över folksamling tillåtet",
-      "30 m (5 m med låghastighetsläge)",
-      "150 m",
-      "50 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2 tillåter flygning nära människor men aldrig över icke-medverkande. Avstånd 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q4-0-X24",
-    "topic": "A1A3",
-    "text": "Vilken betyder detta i praktiken: Minst 150 m från bebyggelse och personer?",
-    "options": [
-      "Inga avståndskrav",
-      "30 m",
-      "5 m",
-      "Minst 150 m från bebyggelse och personer"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-1-X25",
-    "topic": "A1A3",
-    "text": "Vilka alternativ stämmer bäst? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "5 m",
-      "Minst 150 m från bebyggelse och personer",
-      "30 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-2-X26",
-    "topic": "A1A3",
-    "text": "Välj rätt påstående: Minst 150 m från bebyggelse och personer",
-    "options": [
-      "Minst 150 m från bebyggelse och personer",
-      "Inga avståndskrav",
-      "5 m",
-      "30 m"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-3-X27",
-    "topic": "A1A3",
-    "text": "Vilken gäller enligt materialet? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "5 m",
-      "Minst 150 m från bebyggelse och personer",
-      "30 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-4-X28",
-    "topic": "A1A3",
-    "text": "Vilka är korrekt? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "Minst 150 m från bebyggelse och personer",
-      "5 m",
-      "30 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-5-X29",
-    "topic": "A1A3",
-    "text": "Vilken är korrekt enligt Kap 3.3 A3? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "30 m",
-      "5 m",
-      "Inga avståndskrav",
-      "Minst 150 m från bebyggelse och personer"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-6-X30",
-    "topic": "A1A3",
-    "text": "När är följande riktigt? Minst 150 m från bebyggelse och personer",
-    "options": [
-      "Inga avståndskrav",
-      "30 m",
-      "Minst 150 m från bebyggelse och personer",
-      "5 m"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q4-7-X31",
-    "topic": "A1A3",
-    "text": "Välj det som stämmer: Minst 150 m från bebyggelse och personer",
-    "options": [
-      "30 m",
-      "Minst 150 m från bebyggelse och personer",
-      "Inga avståndskrav",
-      "5 m"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A3",
-    "expl": "A3 kräver stort avstånd till människor och bebyggelse."
-  },
-  {
-    "id": "Q5-0-X32",
-    "topic": "ALL",
-    "text": "Vilken betyder detta i praktiken: Publicera tillfälliga meddelanden som påverkar flygverksamhet?",
-    "options": [
-      "Registrera operatörer",
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-1-X33",
-    "topic": "ALL",
-    "text": "Vilka alternativ stämmer bäst? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Registrera operatörer",
-      "Uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-2-X34",
-    "topic": "ALL",
-    "text": "Välj rätt påstående: Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Registrera operatörer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-3-X35",
-    "topic": "ALL",
-    "text": "Vilken gäller enligt materialet? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Registrera operatörer"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-4-X36",
-    "topic": "ALL",
-    "text": "Vilka är korrekt? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Registrera operatörer",
-      "Uppdatera manualer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-5-X37",
-    "topic": "ALL",
-    "text": "Vilken är korrekt enligt Kap 2.3 NOTAM? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Registrera operatörer",
-      "Uppdatera manualer",
-      "Beställa väder",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-6-X38",
-    "topic": "ALL",
-    "text": "När är följande riktigt? Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Beställa väder",
-      "Registrera operatörer",
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Uppdatera manualer"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q5-7-X39",
-    "topic": "ALL",
-    "text": "Välj det som stämmer: Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-    "options": [
-      "Publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Beställa väder",
-      "Uppdatera manualer",
-      "Registrera operatörer"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM publicerar tillfälliga meddelanden som påverkar flygverksamhet."
-  },
-  {
-    "id": "Q6-0-X40",
-    "topic": "ALL",
-    "text": "Vilken betyder detta i praktiken: AIP innehåller varaktig, väsentlig flyginformation?",
-    "options": [
-      "AIP innehåller varaktig, väsentlig flyginformation",
-      "SIGMET beskriver luftrum i AIP",
-      "AIP SUP innehåller varaktig info",
-      "TAF är flygplatskarta"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
-  },
-  {
-    "id": "Q6-1-X41",
-    "topic": "ALL",
-    "text": "Vilka alternativ stämmer bäst? AIP innehåller varaktig, väsentlig flyginformation",
-    "options": [
-      "TAF är flygplatskarta",
-      "SIGMET beskriver luftrum i AIP",
-      "AIP SUP innehåller varaktig info",
-      "AIP innehåller varaktig, väsentlig flyginformation"
-    ],
-    "correctIndex": 3,
-    "ref": "Kap 2.3 AIP",
-    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
+    "ref": "Kap 10.1",
+    "expl": "Vind ger drift och ökad effektförbrukning."
   }
 ]
