@@ -1,260 +1,36 @@
 [
   {
-    "id": "Q1",
+    "id": "Q001",
     "topic": "ALL",
-    "text": "Vad innebär begreppet situationsmedvetenhet för en fjärrpilot?",
+    "text": "Vad menas med situationsmedvetenhet för en fjärrpilot enligt materialet?",
     "options": [
-      "Att alltid förlita sig på RTH",
-      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
-      "Att endast väderleken avgör beslut",
-      "Att geostaket ersätter riskbedömning"
+      "Att alltid lita på RTH-funktionen",
+      "Att uppfatta, förstå och förutse vad som sker i och runt flygområdet",
+      "Att bara följa geostaketet",
+      "Att vädret ensam avgör beslut"
     ],
     "correctIndex": 1,
-    "ref": "Kap 1",
-    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
+    "ref": "Kap 1 (A2)",
+    "expl": "Situationsmedvetenhet innebär att uppfatta–förstå–förutse det som sker i och runt operationen för en säkrare flygning."
   },
   {
-    "id": "Q1_v1",
+    "id": "Q002",
     "topic": "ALL",
-    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
+    "text": "Vad betyder VLOS i öppen kategori?",
     "options": [
-      "Att alltid förlita sig på RTH",
-      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
-      "Att endast väderleken avgör beslut",
-      "Att geostaket ersätter riskbedömning"
+      "Att du får flyga bortom synhåll om videolänken är stabil",
+      "Att du ska kunna se drönaren hela tiden utan optiska hjälpmedel",
+      "Att spotter alltid krävs",
+      "Att drönaren alltid sänder ADS‑B"
     ],
     "correctIndex": 1,
-    "ref": "Kap 1",
-    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
+    "ref": "Kap 1 / VLOS (A1/A3)",
+    "expl": "VLOS = Visual Line Of Sight; du ska kunna se drönaren inom synhåll under flygningen."
   },
   {
-    "id": "Q1_v2",
-    "topic": "ALL",
-    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
-    "options": [
-      "Att alltid förlita sig på RTH",
-      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
-      "Att endast väderleken avgör beslut",
-      "Att geostaket ersätter riskbedömning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 1",
-    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
-  },
-  {
-    "id": "Q1_v3",
-    "topic": "ALL",
-    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
-    "options": [
-      "Att alltid förlita sig på RTH",
-      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
-      "Att endast väderleken avgör beslut",
-      "Att geostaket ersätter riskbedömning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 1",
-    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
-  },
-  {
-    "id": "Q1_v4",
-    "topic": "ALL",
-    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
-    "options": [
-      "Att alltid förlita sig på RTH",
-      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
-      "Att endast väderleken avgör beslut",
-      "Att geostaket ersätter riskbedömning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 1",
-    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
-  },
-  {
-    "id": "Q1_v5",
-    "topic": "ALL",
-    "text": "Vilket påstående om innebär begreppet situationsmedvetenhet för en fjärrpilot?",
-    "options": [
-      "Att alltid förlita sig på RTH",
-      "Att kunna uppfatta, förstå och förutse vad som sker i och runt operationsområdet",
-      "Att endast väderleken avgör beslut",
-      "Att geostaket ersätter riskbedömning"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 1",
-    "expl": "Situationsmedvetenhet = uppfatta–förstå–förutse."
-  },
-  {
-    "id": "Q2",
-    "topic": "ALL",
-    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
-    "options": [
-      "Hörseln",
-      "Synen",
-      "Luktsinnet",
-      "Smaksinnet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.5",
-    "expl": "Synen är primär för VLOS och konfliktupptäckt."
-  },
-  {
-    "id": "Q2_v1",
-    "topic": "ALL",
-    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
-    "options": [
-      "Hörseln",
-      "Synen",
-      "Luktsinnet",
-      "Smaksinnet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.5",
-    "expl": "Synen är primär för VLOS och konfliktupptäckt."
-  },
-  {
-    "id": "Q2_v2",
-    "topic": "ALL",
-    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
-    "options": [
-      "Hörseln",
-      "Synen",
-      "Luktsinnet",
-      "Smaksinnet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.5",
-    "expl": "Synen är primär för VLOS och konfliktupptäckt."
-  },
-  {
-    "id": "Q2_v3",
-    "topic": "ALL",
-    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
-    "options": [
-      "Hörseln",
-      "Synen",
-      "Luktsinnet",
-      "Smaksinnet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.5",
-    "expl": "Synen är primär för VLOS och konfliktupptäckt."
-  },
-  {
-    "id": "Q2_v4",
-    "topic": "ALL",
-    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
-    "options": [
-      "Hörseln",
-      "Synen",
-      "Luktsinnet",
-      "Smaksinnet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.5",
-    "expl": "Synen är primär för VLOS och konfliktupptäckt."
-  },
-  {
-    "id": "Q2_v5",
-    "topic": "ALL",
-    "text": "Vilket sinne är viktigast för att upprätthålla VLOS?",
-    "options": [
-      "Hörseln",
-      "Synen",
-      "Luktsinnet",
-      "Smaksinnet"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.5",
-    "expl": "Synen är primär för VLOS och konfliktupptäckt."
-  },
-  {
-    "id": "Q3",
-    "topic": "ALL",
-    "text": "Vad används NOTAM till inom luftfarten?",
-    "options": [
-      "Att beställa väder",
-      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Att registrera operatörer",
-      "Att uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
-  },
-  {
-    "id": "Q3_v1",
-    "topic": "ALL",
-    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
-    "options": [
-      "Att beställa väder",
-      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Att registrera operatörer",
-      "Att uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
-  },
-  {
-    "id": "Q3_v2",
-    "topic": "ALL",
-    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
-    "options": [
-      "Att beställa väder",
-      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Att registrera operatörer",
-      "Att uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
-  },
-  {
-    "id": "Q3_v3",
-    "topic": "ALL",
-    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
-    "options": [
-      "Att beställa väder",
-      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Att registrera operatörer",
-      "Att uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
-  },
-  {
-    "id": "Q3_v4",
-    "topic": "ALL",
-    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
-    "options": [
-      "Att beställa väder",
-      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Att registrera operatörer",
-      "Att uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
-  },
-  {
-    "id": "Q3_v5",
-    "topic": "ALL",
-    "text": "Vilket påstående om används NOTAM till inom luftfarten?",
-    "options": [
-      "Att beställa väder",
-      "Att publicera tillfälliga meddelanden som påverkar flygverksamhet",
-      "Att registrera operatörer",
-      "Att uppdatera manualer"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 2.3 NOTAM",
-    "expl": "NOTAM = tillfälliga/akuta meddelanden som påverkar flygning."
-  },
-  {
-    "id": "Q4",
+    "id": "Q003",
     "topic": "A1A3",
-    "text": "Vilken maxhöjd gäller normalt i öppen kategori?",
+    "text": "Vilket påstående stämmer om är normal högsta flyghöjd i öppen kategori om inget annat anges?",
     "options": [
       "60 m AGL",
       "90 m AGL",
@@ -262,13 +38,839 @@
       "150 m AGL"
     ],
     "correctIndex": 2,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+    "ref": "Kap 5 (A1/A3)",
+    "expl": "Materialet anger att du inte får flyga högre än 120 m i öppen kategori."
   },
   {
-    "id": "Q4_v1",
+    "id": "Q004",
+    "topic": "A2",
+    "text": "Vilket säkerhetsavstånd till människor gäller i A2?",
+    "options": [
+      "50 m i normalläge",
+      "30 m (5 m med låghastighetsläge)",
+      "Överflygning av enstaka personer tillåten",
+      "Inga avståndskrav"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A2 (A1/A3 & A2)",
+    "expl": "I A2 ska du hålla 30 m horisontellt, eller 5 m om låghastighetsläge är aktiverat."
+  },
+  {
+    "id": "Q005",
+    "topic": "A2",
+    "text": "Vilken är den främsta anledningen till att måste du behärska låghastighetsläget i A2?",
+    "options": [
+      "Det möjliggör flygning över folksamlingar",
+      "Det kan sänka minimiavståndet till 5 m och kräver noggrann kontroll",
+      "Det ökar maxhöjden till 150 m",
+      "Det ersätter riskbedömning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 12.1 (A2)",
+    "expl": "Låghastighetsläge kan reducera minimiavståndet till 5 m; därför krävs god hantering nära människor."
+  },
+  {
+    "id": "Q006",
     "topic": "A1A3",
-    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
+    "text": "Vad gäller i underkategori A3?",
+    "options": [
+      "Flygning nära människor är tillåten",
+      "Minst 150 m från bostads‑, affärs‑, industri‑ eller rekreationsområden samt inte nära icke‑medverkande",
+      "Endast höjdbegränsning gäller",
+      "Överflygning av folksamlingar är tillåten"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A3 (A1/A3 & A2)",
+    "expl": "A3 kräver stort avstånd till människor och bebyggelse: minst 150 m från bebyggelse/rekreationsområden."
+  },
+  {
+    "id": "Q007",
+    "topic": "ALL",
+    "text": "Vad är NOTAM enligt materialet?",
+    "options": [
+      "Ett register över operatörer",
+      "Löpande meddelanden som varnar för risker/restriktioner som påverkar flygning",
+      "En karta över skyddad natur",
+      "En väderapp för drönare"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM (A1/A3 & A2)",
+    "expl": "NOTAM publicerar viktig, tillfällig information som kan påverka flygsäkerheten längs en rutt eller plats."
+  },
+  {
+    "id": "Q008",
+    "topic": "ALL",
+    "text": "Vad beskriver AIP respektive AIP SUP?",
+    "options": [
+      "AIP: tillfälliga varningar, AIP SUP: beständig info",
+      "AIP: varaktig väsentlig info; AIP SUP: tillfälliga förändringar i AIP",
+      "AIP: väder, AIP SUP: flygplatskarta",
+      "AIP: endast drönarregler, AIP SUP: utryckningszoner"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 AIP/AIP SUP (A1/A3 & A2)",
+    "expl": "AIP innehåller varaktig väsentlig information; AIP SUP kompletterar med tillfälliga förändringar."
+  },
+  {
+    "id": "Q009",
+    "topic": "ALL",
+    "text": "Vilken källa visar drönarrelevant luftrumsinformation och kontaktvägar för tillstånd i Sverige?",
+    "options": [
+      "Naturvårdsverkets karta",
+      "LFV:s Drönarkarta",
+      "SMHI:s väderkarta",
+      "Skatteverkets karttjänst"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 (A1/A3 & A2)",
+    "expl": "LFV:s Drönarkarta kompletterar planeringen och visar relevant luftrumsinformation."
+  },
+  {
+    "id": "Q010",
+    "topic": "ALL",
+    "text": "Vilket tekniskt krav gäller för C1–C3‑drönare tillverkade efter 1 juli 2020?",
+    "options": [
+      "Endast geostaket",
+      "Direkt fjärridentifiering och geomedvetenhet",
+      "ADS‑B sändare obligatoriskt",
+      "Inget särskilt"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.2 / 3 (A1/A3 & A2)",
+    "expl": "Materialet anger att C1–C3 ska ha geomedvetenhet; även direkt fjärridentifiering nämns i sammanhanget."
+  },
+  {
+    "id": "Q011",
+    "topic": "ALL",
+    "text": "Vilken är den främsta anledningen till att det gäller nolltolerans mot alkohol vid drönarflygning?",
+    "options": [
+      "För att videolänken annars stängs av",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att GPS slutar fungera",
+      "För att batteriet drar mer ström"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.2 (A2)",
+    "expl": "Alkohol försämrar omdöme och reaktionsförmåga och sänker säkerhetsmarginalerna."
+  },
+  {
+    "id": "Q012",
+    "topic": "ALL",
+    "text": "Vilket är ett typiskt farligt tecken på trötthet vid flygning?",
+    "options": [
+      "Mikrosömn",
+      "Lättare handsvett",
+      "Högre puls",
+      "Mindre perifer uppmärksamhet"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 4.4 (A2)",
+    "expl": "Mikrosömn kan inträffa plötsligt och är farligt vid krävande moment."
+  },
+  {
+    "id": "Q013",
+    "topic": "ALL",
+    "text": "Vilken åtgärd ska du vidta om ett bemannat luftfartyg närmar sig ditt operationsområde?",
+    "options": [
+      "Fortsätt flyga – du har företräde under 120 m",
+      "Väj och landa bort från konfliktytan",
+      "Stig till maxhöjd för att synas bättre",
+      "Stäng av fjärrkontrollen"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.3 (A2)",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg och ska undanröja konflikt."
+  },
+  {
+    "id": "Q014",
+    "topic": "ALL",
+    "text": "I vilka fall bör du avbryta/avsluta flygningen?",
+    "options": [
+      "Vid vindökning, tappad VLOS eller oväntade personer i närheten",
+      "Vid låg sol",
+      "När du vill byta ND‑filter",
+      "Aldrig – fortsätt tills batteriet tar slut"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.3 (A2)",
+    "expl": "Avsluta kontrollerat när risk uppstår: t.ex. försämrad sikt, tappad VLOS eller oväntade personer."
+  },
+  {
+    "id": "Q015",
+    "topic": "ALL",
+    "text": "Vilket påstående om Return‑To‑Home (RTH) stämmer bäst?",
+    "options": [
+      "RTH används för att öka videokvaliteten",
+      "RTH hjälper drönaren att återvända vid länkbortfall – ställ rätt hemhöjd över hinder",
+      "RTH stänger av GNSS",
+      "RTH krävs inte i öppen kategori"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2 (A2)",
+    "expl": "RTH kan aktiveras vid länkproblem; ange RTH‑höjd som ligger över högsta hinder."
+  },
+  {
+    "id": "Q016",
+    "topic": "ALL",
+    "text": "Vad är syftet med geomedvetenhet och geostaket i drönarsystem?",
+    "options": [
+      "Att förbättra färgåtergivningen i kameran",
+      "Att varna/stoppa drönaren vid luftrumsgränser och förbjudna områden",
+      "Att spara batteri",
+      "Att göra VLOS överflödigt"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.2 (A2)",
+    "expl": "Geomedvetenhet varnar för gränser; geostaket kan hindra intrång i förbjudna områden."
+  },
+  {
+    "id": "Q017",
+    "topic": "ALL",
+    "text": "När kan du behöva spridningstillstånd för drönarbilder?",
+    "options": [
+      "När du filmar inomhus",
+      "Vid spridning av skyddsvärd geografisk information",
+      "Endast om du filmar privat mark",
+      "Aldrig för stillbilder"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 7.2 (A2)",
+    "expl": "Spridningstillstånd kan krävas för skyddsvärd geografisk information."
+  },
+  {
+    "id": "Q018",
+    "topic": "ALL",
+    "text": "Vad bör du tänka på enligt GDPR när du filmar människor?",
+    "options": [
+      "Bilder räknas aldrig som personuppgifter",
+      "Identifierbara personer är personuppgifter – välj rätt rättslig grund och minimera",
+      "GDPR gäller bara företag >250 anställda",
+      "GDPR gäller inte för drönare"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 7.1 (A2)",
+    "expl": "Identifierbara personer utgör personuppgifter; välj laglig grund och minimera insamling."
+  },
+  {
+    "id": "Q019",
+    "topic": "ALL",
+    "text": "När är ansvarsförsäkring ett uttryckligt krav enligt materialet?",
+    "options": [
+      "Aldrig i Sverige",
+      "Endast under 250 g",
+      "För drönare över 20 kg",
+      "Bara i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8 (A2)",
+    "expl": "Över 20 kg krävs ansvarsförsäkring; i övrigt rekommenderas."
+  },
+  {
+    "id": "Q020",
+    "topic": "A2",
+    "text": "Hur påverkar stark vind din flygning?",
+    "options": [
+      "Kortare bromssträcka",
+      "Längre bromssträcka, drift i vindriktning och högre batteriförbrukning",
+      "Ingen märkbar påverkan",
+      "Bättre GNSS‑precision"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.1 (A2)",
+    "expl": "Vind ger drift, längre bromssträcka och högre effektförbrukning."
+  },
+  {
+    "id": "Q021",
+    "topic": "A2",
+    "text": "Varför är dimma och nederbörd riskfyllt vid flygning?",
+    "options": [
+      "Ger bättre grepp i propellrarna",
+      "Påverkar sikt, sensorer och elektronik negativt",
+      "Kyler batteriet optimalt",
+      "Förbättrar GNSS‑mottagning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.2 (A2)",
+    "expl": "Fukt och dålig sikt påverkar både pilotens sikt och drönarens sensorer."
+  },
+  {
+    "id": "Q022",
+    "topic": "A2",
+    "text": "Vilket batteriproblem är vanligt i kyla?",
+    "options": [
+      "Ökad kapacitet",
+      "Spänningsfall och minskad kapacitet",
+      "Ingen påverkan",
+      "Snabbare laddning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.3 (A2)",
+    "expl": "Kyla kan ge spänningsfall och minskad kapacitet; förvärm och planera marginal."
+  },
+  {
+    "id": "Q023",
+    "topic": "A2",
+    "text": "Vad är tanken bakom 1:1‑regeln när du flyger nära människor?",
+    "options": [
+      "Horisontellt avstånd ska vara halva höjden",
+      "Planera höjd/avstånd så att ett haveri inte passerar där människor finns",
+      "Maxhöjd = närmaste persons avstånd",
+      "Gäller bara i A3"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 12.3 (A2)",
+    "expl": "Anpassa höjd/avstånd så att ett haveri inte passerar över människor."
+  },
+  {
+    "id": "Q024",
+    "topic": "ALL",
+    "text": "Vad innebär C‑märkning för drönare i öppna kategorin enligt materialet?",
+    "options": [
+      "Att drönaren saknar CE‑märkning",
+      "Tekniska specifikationer som t.ex. identifiering/positionsdata ska uppfyllas",
+      "Att drönaren får flyga utom synhåll",
+      "Att drönaren alltid väger under 250 g"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3 / C‑märkning (A1/A3 & A2)",
+    "expl": "C‑märkning anger tekniska krav; t.ex. identifiering och positionsdata ska kunna fastställas."
+  },
+  {
+    "id": "Q025",
+    "topic": "ALL",
+    "text": "Vad är syftet med AIP?",
+    "options": [
+      "Att publicera varaktig väsentlig flyginformation",
+      "Att ge kortvariga varningar",
+      "Att ge realtidsväder",
+      "Att registrera UAS‑operatörer"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.3 AIP",
+    "expl": "AIP innehåller varaktig, väsentlig flyginformation."
+  },
+  {
+    "id": "Q026",
+    "topic": "ALL",
+    "text": "Vad beskriver AIP SUP?",
+    "options": [
+      "En väderbilaga till AIP",
+      "Ett supplement med tillfälliga/långvariga ändringar i AIP",
+      "En karta över skyddad natur",
+      "Ett utbildningsmaterial"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 AIP SUP",
+    "expl": "AIP SUP kompletterar AIP med (ofta tidsbegränsade) ändringar."
+  },
+  {
+    "id": "Q027",
+    "topic": "ALL",
+    "text": "Vad används NOTAM primärt till?",
+    "options": [
+      "Att förklara C‑märkningar",
+      "Att sprida brådskande/tillfällig info som påverkar flygningar",
+      "Att ersätta AIP SUP",
+      "Att visa fotoförbud"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM är brådskande/tillfällig info som påverkar planering/utförande."
+  },
+  {
+    "id": "Q028",
+    "topic": "ALL",
+    "text": "Vad betyder CTR i luftrumssammanhang?",
+    "options": [
+      "Control Zone runt flygplats",
+      "Controlled Terrain",
+      "Control Tower Range",
+      "Control Terminal Route"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.1",
+    "expl": "CTR = kontrollerad zon runt flygplats. Följ lokala regler/tillstånd."
+  },
+  {
+    "id": "Q029",
+    "topic": "ALL",
+    "text": "Vad innebär ett R‑område (Restricted)?",
+    "options": [
+      "Fritt luftrum för UAS",
+      "Område där tillträde kan vara förbjudet eller kräva tillstånd",
+      "Tillfälligt farligt väderområde",
+      "Bara för militärtrafik, aldrig civilt tillstånd"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.1",
+    "expl": "Restricted kan kräva särskilt tillstånd/koordination."
+  },
+  {
+    "id": "Q030",
+    "topic": "ALL",
+    "text": "Vad kännetecknar ett D‑område (Danger)?",
+    "options": [
+      "Område med farlig verksamhet där luftfart bör iaktta särskild försiktighet",
+      "Permanent förbjudet luftrum",
+      "Enbart för IFR‑trafik",
+      "Ett område utan påverkan"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.1",
+    "expl": "Danger kan ha skjutning/e‑krigföring etc. Kontrollera NOTAM/AIP."
+  },
+  {
+    "id": "Q031",
+    "topic": "ALL",
+    "text": "Vad stämmer om UAS‑zoner?",
+    "options": [
+      "De är bara rekommendationer i appar",
+      "De kan vara juridiskt bindande och bör kontrolleras via nationella källor",
+      "De gäller bara över 120 m",
+      "De syns endast i kommersiella appar"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.2 UAS‑zoner",
+    "expl": "Kontrollera alltid officiella källor (LFV m.fl.)."
+  },
+  {
+    "id": "Q032",
+    "topic": "ALL",
+    "text": "Vilken svensk tjänst rekommenderas för att kontrollera luftrumsrestriktioner vid UAS‑planering?",
+    "options": [
+      "SMHI Väder",
+      "LFV:s Drönarkarta",
+      "Skatteverkets karta",
+      "PostNords zonkarta"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3",
+    "expl": "LFV:s Drönarkarta visar UAS‑relevant info."
+  },
+  {
+    "id": "Q033",
+    "topic": "ALL",
+    "text": "När krävs operatörsregistrering?",
+    "options": [
+      "Endast om drönaren väger ≥ 25 kg",
+      "När drönaren har kamera/sensor eller väger ≥ 250 g",
+      "Endast i A2",
+      "Aldrig i Sverige"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.1",
+    "expl": "Kamera/sensor eller ≥ 250 g → registrering krävs."
+  },
+  {
+    "id": "Q034",
+    "topic": "ALL",
+    "text": "Vilket av följande är ett tekniskt krav kopplat till C1–C3?",
+    "options": [
+      "Enbart geostaket",
+      "Direkt fjärridentifiering och geomedvetenhet",
+      "ADS‑B OUT",
+      "Ingen kravlista finns"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3 / C‑märkning",
+    "expl": "Nyare C1–C3 omfattar ID/geo‑medvetenhet enligt specifikationen."
+  },
+  {
+    "id": "Q035",
+    "topic": "A1A3",
+    "text": "Vad gäller normalt för högsta flyghöjd i öppen kategori?",
+    "options": [
+      "90 m AGL",
+      "120 m AGL",
+      "150 m AGL",
+      "200 m AGL"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3",
+    "expl": "Max 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q036",
+    "topic": "A2",
+    "text": "Vilket minimiavstånd till människor gäller i A2?",
+    "options": [
+      "30 m (5 m med låghastighetsläge)",
+      "50 m alltid",
+      "150 m från bebyggelse",
+      "Inga krav"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2: 30 m eller 5 m i låghastighetsläge."
+  },
+  {
+    "id": "Q037",
+    "topic": "A1A3",
+    "text": "Vad gäller i A3 gällande bebyggelse och icke‑medverkande personer?",
+    "options": [
+      "Minst 150 m från bebyggelse och inte nära icke‑medverkande",
+      "Överflygning av folksamling är tillåten",
+      "Inga avståndsregler",
+      "Minst 30 m från alla personer"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 3.3 A3",
+    "expl": "A3 = långt från människor och bebyggelse."
+  },
+  {
+    "id": "Q038",
+    "topic": "ALL",
+    "text": "Varför är nolltolerans mot alkohol motiverad i UAS‑flygning?",
+    "options": [
+      "Alkohol förbättrar reaktionen",
+      "Alkohol försämrar omdöme, reaktion och riskbedömning",
+      "Alkohol höjer GNSS‑precisionen",
+      "Alkohol minskar stress"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.2",
+    "expl": "Påverkan försämrar beslutsfattande och reaktionsförmåga."
+  },
+  {
+    "id": "Q039",
+    "topic": "ALL",
+    "text": "Vilket tecken på trötthet är extra riskfyllt?",
+    "options": [
+      "Mikrosömn",
+      "Hicka",
+      "Gäspning en gång",
+      "Torr mun"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 4.4",
+    "expl": "Mikrosömn kan inträffa plötsligt under krävande moment."
+  },
+  {
+    "id": "Q040",
+    "topic": "ALL",
+    "text": "Hur kan negativt grupptryck påverka säkerheten?",
+    "options": [
+      "Du blir alltid mer försiktig",
+      "Det kan pressa dig att ta onödiga risker",
+      "Det förbättrar riskbedömning",
+      "Det saknar betydelse i UAS"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.7",
+    "expl": "Grupptryck kan leda till riskfyllda beslut."
+  },
+  {
+    "id": "Q041",
+    "topic": "ALL",
+    "text": "Vilken är korrekt åtgärd när bemannat luftfartyg närmar sig?",
+    "options": [
+      "Stig till maxhöjd",
+      "Fortsätt flygningen",
+      "Väj och landa bort från konfliktytan",
+      "Stäng av sändaren spontant"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannad trafik."
+  },
+  {
+    "id": "Q042",
+    "topic": "ALL",
+    "text": "När bör du avbryta en pågående flygning?",
+    "options": [
+      "Vid vindökning, tappad VLOS eller oväntade personer i området",
+      "När solen är låg",
+      "När du vill byta filter",
+      "När batteriet är fulladdat"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.3",
+    "expl": "Avsluta kontrollerat när risk uppstår."
+  },
+  {
+    "id": "Q043",
+    "topic": "ALL",
+    "text": "Vad är god praxis för start/landningsplats?",
+    "options": [
+      "Högt gräs",
+      "Under träd",
+      "Jämn yta, fri från hinder, med alternativ landningsyta",
+      "Så nära människor som möjligt"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.2",
+    "expl": "Säker plats minskar risk vid start/landning."
+  },
+  {
+    "id": "Q044",
+    "topic": "ALL",
+    "text": "När ska kompass/IMU kalibreras?",
+    "options": [
+      "Inför varje flygning",
+      "Aldrig",
+      "Endast vid behov/indikation eller miljöbyte",
+      "Efter varje landning"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera när indikation/miljö kräver det – inte slentrian."
+  },
+  {
+    "id": "Q045",
+    "topic": "ALL",
+    "text": "Vilket är ett exempel på efter‑flygning‑åtgärd?",
+    "options": [
+      "Djupurladda till 0 %",
+      "Efterkontroll och loggning, inspektera propellrar/batterier",
+      "Kalibrera allt",
+      "Inget alls"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.4–5.5",
+    "expl": "Efterkontroll och loggning hjälper säkerhetsarbete."
+  },
+  {
+    "id": "Q046",
+    "topic": "ALL",
+    "text": "Vad är syftet med RTH och korrekt hemhöjd?",
+    "options": [
+      "Öka videokvaliteten",
+      "Hjälpa drönaren återvända vid länkproblem och undvika hinder via rätt hemhöjd",
+      "Stänga av GNSS",
+      "Spara batteri"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2",
+    "expl": "Ställ hemhöjd över högsta hinder längs returvägen."
+  },
+  {
+    "id": "Q047",
+    "topic": "ALL",
+    "text": "Vad gör geomedvetenhet/geostaket?",
+    "options": [
+      "Varnar/stoppar vid restriktionsgränser",
+      "Förbättrar kamerans färg",
+      "Ökar maxhöjden till 200 m",
+      "Eliminerar behovet av VLOS"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.2",
+    "expl": "Hjälper undvika intrång i begränsat luftrum."
+  },
+  {
+    "id": "Q048",
+    "topic": "ALL",
+    "text": "Vilken GDPR‑princip är central vid filmning av personer?",
+    "options": [
+      "Bilder är aldrig personuppgifter",
+      "Identifierbara personer är personuppgifter – välj rätt rättslig grund och minimera",
+      "GDPR gäller bara stora företag",
+      "GDPR gäller inte drönare"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 7.1",
+    "expl": "Planera laglig grund och minimera personuppgifter."
+  },
+  {
+    "id": "Q049",
+    "topic": "ALL",
+    "text": "När kan spridningstillstånd behövas?",
+    "options": [
+      "Vid spridning av skyddsvärd geografisk information",
+      "När horisonten saknas i bilder",
+      "Endast vid inomhusfilmning",
+      "Aldrig för UAS"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.2",
+    "expl": "Spridning av skyddsvärd geodata kan kräva tillstånd."
+  },
+  {
+    "id": "Q050",
+    "topic": "ALL",
+    "text": "När är ansvarsförsäkring ett krav?",
+    "options": [
+      "Aldrig",
+      "Endast < 250 g",
+      "Vid drönare över 20 kg",
+      "Endast i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": ">20 kg → krav (i övrigt rekommenderas)."
+  },
+  {
+    "id": "Q051",
+    "topic": "ALL",
+    "text": "Hur bör en security‑händelse hanteras?",
+    "options": [
+      "Fortsätt flyga ostört",
+      "Konfrontera fysiskt omedelbart",
+      "Avbryt säkert, skydda utrustning och följ rapporteringsrutiner",
+      "Publicera på sociala medier"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 9",
+    "expl": "Följ operatörens rutiner och myndighetskrav."
+  },
+  {
+    "id": "Q052",
+    "topic": "A2",
+    "text": "Vad innebär vindgradient för UAS‑flygning?",
+    "options": [
+      "Samma vindstyrka på alla höjder",
+      "Vinden ökar ofta med höjden – räkna med starkare vind högre upp",
+      "Vinden minskar alltid med höjden",
+      "Ingen betydelse för små UAS"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10",
+    "expl": "Planera för starkare vind på höjd."
+  },
+  {
+    "id": "Q053",
+    "topic": "A2",
+    "text": "Vilken risk innebär isbildning (icing) på propellrar?",
+    "options": [
+      "Bättre lyftkraft",
+      "Sämre grepp, vibrationer och obalans",
+      "Mindre energiförbrukning",
+      "Förbättrad GNSS"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.3",
+    "expl": "Is försämrar lyft och kan ge vibrationer/obalans."
+  },
+  {
+    "id": "Q054",
+    "topic": "A2",
+    "text": "Hur kan låg molnbas påverka VLOS‑operationer?",
+    "options": [
+      "Ingen effekt",
+      "Risk för förlorad sikt och desorientering",
+      "Ökad GNSS‑noggrannhet",
+      "Alltid säkrare flygning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.2",
+    "expl": "Säkerställ att VLOS upprätthålls – avbryt vid risk."
+  },
+  {
+    "id": "Q055",
+    "topic": "A2",
+    "text": "Vad är målet med 1:1‑tänk vid flygning nära människor?",
+    "options": [
+      "Att alltid hålla 20 m höjd",
+      "Att kombinera höjd/avstånd så ett haveri inte passerar över människor",
+      "Att dela avståndet med två",
+      "Att alltid flyga högre än 120 m"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 12.3",
+    "expl": "Anpassa höjd/avstånd så att markrisk minimeras."
+  },
+  {
+    "id": "Q056",
+    "topic": "ALL",
+    "text": "Vilken lagringsnivå rekommenderas typiskt för LiPo‑batterier?",
+    "options": [
+      "0 %",
+      "30–60 % och svalt/torrt",
+      "100 % under lång tid",
+      "Valfritt, påverkar inte livslängd"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.5",
+    "expl": "Lagra kring 30–60 % för livslängd/säkerhet."
+  },
+  {
+    "id": "Q057",
+    "topic": "ALL",
+    "text": "Varför bör du föra flyglogg och efterkontroll?",
+    "options": [
+      "Det krävs aldrig",
+      "Det ger spårbarhet och fångar fel/avvikelser för förbättring",
+      "Det minskar GNSS‑precision",
+      "Det ökar batteriförbrukningen"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.4–5.6",
+    "expl": "Loggning och efterkontroll förbättrar säkerhet och lärande."
+  },
+  {
+    "id": "Q058",
+    "topic": "ALL",
+    "text": "Vilket hör normalt till förberedelser före flygning?",
+    "options": [
+      "Kontrollera NOTAM/AIP, luftrum, väder och platsens begränsningar",
+      "Byta ND‑filter först",
+      "Djupurladda batterier",
+      "Ignorera luftrum så länge du är under 120 m"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.1–5.2",
+    "expl": "Planering med källor (NOTAM/AIP, LFV-kartan) är grundläggande."
+  },
+  {
+    "id": "Q059",
+    "topic": "ALL",
+    "text": "Vilket dokument bör du ha tillgängligt under operation?",
+    "options": [
+      "Manual, checklista, drönarkort/registrering och ev. tillstånd",
+      "Endast körkort",
+      "Endast kamera‑manual",
+      "Endast laddare"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.1–5.2",
+    "expl": "Rätt dokumentation ska finnas nära till hands."
+  },
+  {
+    "id": "Q060",
+    "topic": "ALL",
+    "text": "Vad är en bra åtgärd om magnetkompassvarning uppstår under förstart?",
+    "options": [
+      "Fortsätt flyga ändå",
+      "Flytta dig från störkällan och kalibrera vid behov",
+      "Stäng av GNSS",
+      "Byt till ATTI och ignorera"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.2",
+    "expl": "Åtgärda miljöpåverkan/kalibrera vid indikation."
+  },
+  {
+    "id": "Q061",
+    "topic": "ALL",
+    "text": "Vad är korrekt om geostaket?",
+    "options": [
+      "Det kan hindra start/flygning i restriktionsområden",
+      "Det förbättrar kamera‑dynamik",
+      "Det ersätter riskbedömning fullt ut",
+      "Det ökar maxhöjden över 120 m"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.2",
+    "expl": "Geostaket förhindrar intrång – men du ansvarar ändå för regelefterlevnad."
+  },
+  {
+    "id": "Q062",
+    "topic": "ALL",
+    "text": "Vad är en rimlig åtgärd om avvikande batteritemp registreras?",
+    "options": [
+      "Ignorera om spänning verkar okej",
+      "Avbryt, byt/undersök batteriet och fortsätt först när värdena är normala",
+      "Ladda ur helt på plats",
+      "Fortsätt och hoppas på förbättring"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.5",
+    "expl": "Onormala värden → avbryt och utred innan fortsatt flygning."
+  },
+  {
+    "id": "Q063",
+    "topic": "A1A3",
+    "text": "Vilket är normal högsta flyghöjd i öppen kategori om inget annat anges?",
     "options": [
       "60 m AGL",
       "90 m AGL",
@@ -276,735 +878,1925 @@
       "150 m AGL"
     ],
     "correctIndex": 2,
-    "ref": "Kap 3",
-    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+    "ref": "Kap 5 (A1/A3)",
+    "expl": "Materialet anger att du inte får flyga högre än 120 m i öppen kategori."
   },
   {
-    "id": "Q4_v2",
-    "topic": "A1A3",
-    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
+    "id": "Q064",
+    "topic": "A2",
+    "text": "Vad är den främsta anledningen till att måste du behärska låghastighetsläget i A2?",
     "options": [
-      "60 m AGL",
+      "Det möjliggör flygning över folksamlingar",
+      "Det kan sänka minimiavståndet till 5 m och kräver noggrann kontroll",
+      "Det ökar maxhöjden till 150 m",
+      "Det ersätter riskbedömning"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 12.1 (A2)",
+    "expl": "Låghastighetsläge kan reducera minimiavståndet till 5 m; därför krävs god hantering nära människor."
+  },
+  {
+    "id": "Q065",
+    "topic": "ALL",
+    "text": "Vad är orsaken till att det gäller nolltolerans mot alkohol vid drönarflygning?",
+    "options": [
+      "För att videolänken annars stängs av",
+      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
+      "För att GPS slutar fungera",
+      "För att batteriet drar mer ström"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 4.2 (A2)",
+    "expl": "Alkohol försämrar omdöme och reaktionsförmåga och sänker säkerhetsmarginalerna."
+  },
+  {
+    "id": "Q066",
+    "topic": "ALL",
+    "text": "Vilket påstående stämmer om syftet med geomedvetenhet och geostaket i drönarsystem?",
+    "options": [
+      "Att förbättra färgåtergivningen i kameran",
+      "Att varna/stoppa drönaren vid luftrumsgränser och förbjudna områden",
+      "Att spara batteri",
+      "Att göra VLOS överflödigt"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.2 (A2)",
+    "expl": "Geomedvetenhet varnar för gränser; geostaket kan hindra intrång i förbjudna områden."
+  },
+  {
+    "id": "Q067",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Stänger av sändaren",
+      "Stiger för att synas bättre",
+      "Fortsätter eftersom du är under 120 m"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q068",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "200 m AGL",
+      "120 m AGL",
+      "150 m AGL",
+      "90 m AGL"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q069",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "Inga krav",
+      "30 m, eller 5 m i låghastighetsläge",
+      "50 m oavsett läge",
+      "150 m från bebyggelse"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q070",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "NOTAM för aktuellt område/tid",
+      "AIP SUP enbart",
+      "SMHI:s satellitbild",
+      "Endast geostaketet"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q071",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Ingen regel gäller utomhus",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Endast spridningstillstånd",
+      "Endast upphovsrätt"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q072",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För att spara batteri",
+      "För att förbättra GNSS",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q073",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Flytta från störkällan och kalibrera vid behov",
+      "Ignorera och starta",
+      "Stänga av GNSS",
+      "Kalibrera alltid inför varje flygning oavsett"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q074",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Ökar hastigheten i stället",
+      "Litar på geostaketet",
+      "Flyger högre för att inte synas",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q075",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Gäller bara i A2",
+      "Hemförsäkring räcker alltid",
+      "Endast kommersiella uppdrag kräver det",
+      "Drönare >20 kg kräver ansvarsförsäkring"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q076",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Högre GNSS‑noggrannhet",
+      "Bättre propellergrepp",
+      "Optimalt batteriklimat"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q077",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Fortsätter eftersom du är under 120 m",
+      "Stiger för att synas bättre",
+      "Stänger av sändaren",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q078",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "150 m AGL",
       "90 m AGL",
+      "200 m AGL",
+      "120 m AGL"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q079",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "50 m oavsett läge",
+      "Inga krav",
+      "150 m från bebyggelse",
+      "30 m, eller 5 m i låghastighetsläge"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q080",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "AIP SUP enbart",
+      "Endast geostaketet",
+      "NOTAM för aktuellt område/tid",
+      "SMHI:s satellitbild"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q081",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Endast spridningstillstånd",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Ingen regel gäller utomhus",
+      "Endast upphovsrätt"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q082",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För bättre bildstabilisering",
+      "För att spara batteri",
+      "För att förbättra GNSS"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q083",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Ignorera och starta",
+      "Stänga av GNSS",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Kalibrera alltid inför varje flygning oavsett"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q084",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Litar på geostaketet",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Ökar hastigheten i stället",
+      "Flyger högre för att inte synas"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q085",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Gäller bara i A2",
+      "Endast kommersiella uppdrag kräver det",
+      "Hemförsäkring räcker alltid",
+      "Drönare >20 kg kräver ansvarsförsäkring"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q086",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Bättre propellergrepp",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Högre GNSS‑noggrannhet",
+      "Optimalt batteriklimat"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q087",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Stänger av sändaren",
+      "Stiger för att synas bättre",
+      "Fortsätter eftersom du är under 120 m",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q088",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "150 m AGL",
+      "90 m AGL",
+      "120 m AGL",
+      "200 m AGL"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q089",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "30 m, eller 5 m i låghastighetsläge",
+      "Inga krav",
+      "150 m från bebyggelse",
+      "50 m oavsett läge"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q090",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "AIP SUP enbart",
+      "SMHI:s satellitbild",
+      "NOTAM för aktuellt område/tid",
+      "Endast geostaketet"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q091",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Endast upphovsrätt",
+      "Ingen regel gäller utomhus",
+      "Endast spridningstillstånd",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q092",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att spara batteri",
+      "För att förbättra GNSS",
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q093",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Stänga av GNSS",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Ignorera och starta"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q094",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Ökar hastigheten i stället",
+      "Flyger högre för att inte synas",
+      "Litar på geostaketet",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q095",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Hemförsäkring räcker alltid",
+      "Endast kommersiella uppdrag kräver det"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q096",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Optimalt batteriklimat",
+      "Bättre propellergrepp",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Högre GNSS‑noggrannhet"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q097",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Stiger för att synas bättre",
+      "Stänger av sändaren",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Fortsätter eftersom du är under 120 m"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q098",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "90 m AGL",
+      "150 m AGL",
+      "120 m AGL",
+      "200 m AGL"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q099",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "Inga krav",
+      "30 m, eller 5 m i låghastighetsläge",
+      "50 m oavsett läge",
+      "150 m från bebyggelse"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q100",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "AIP SUP enbart",
+      "NOTAM för aktuellt område/tid",
+      "Endast geostaketet",
+      "SMHI:s satellitbild"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q101",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Endast upphovsrätt",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Endast spridningstillstånd",
+      "Ingen regel gäller utomhus"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q102",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att förbättra GNSS",
+      "För bättre bildstabilisering",
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För att spara batteri"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q103",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Stänga av GNSS",
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Ignorera och starta",
+      "Flytta från störkällan och kalibrera vid behov"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q104",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Litar på geostaketet",
+      "Flyger högre för att inte synas",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Ökar hastigheten i stället"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q105",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Endast kommersiella uppdrag kräver det",
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Hemförsäkring räcker alltid"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q106",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Högre GNSS‑noggrannhet",
+      "Bättre propellergrepp",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Optimalt batteriklimat"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q107",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Stänger av sändaren",
+      "Fortsätter eftersom du är under 120 m",
+      "Stiger för att synas bättre",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q108",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "90 m AGL",
+      "200 m AGL",
       "120 m AGL",
       "150 m AGL"
     ],
     "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q4_v3",
-    "topic": "A1A3",
-    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
+    "id": "Q109",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
     "options": [
-      "60 m AGL",
+      "150 m från bebyggelse",
+      "50 m oavsett läge",
+      "Inga krav",
+      "30 m, eller 5 m i låghastighetsläge"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q110",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "Endast geostaketet",
+      "AIP SUP enbart",
+      "SMHI:s satellitbild",
+      "NOTAM för aktuellt område/tid"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q111",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Ingen regel gäller utomhus",
+      "Endast upphovsrätt",
+      "Endast spridningstillstånd",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q112",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att förbättra GNSS",
+      "För bättre bildstabilisering",
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För att spara batteri"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q113",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Ignorera och starta",
+      "Stänga av GNSS"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q114",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Litar på geostaketet",
+      "Flyger högre för att inte synas",
+      "Ökar hastigheten i stället",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q115",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Endast kommersiella uppdrag kräver det",
+      "Hemförsäkring räcker alltid"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q116",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Optimalt batteriklimat",
+      "Högre GNSS‑noggrannhet",
+      "Bättre propellergrepp",
+      "Försämrad sikt samt påverkan på sensorer/elektronik"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q117",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Fortsätter eftersom du är under 120 m",
+      "Stiger för att synas bättre",
+      "Stänger av sändaren",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q118",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
       "90 m AGL",
+      "150 m AGL",
       "120 m AGL",
-      "150 m AGL"
+      "200 m AGL"
     ],
     "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q4_v4",
-    "topic": "A1A3",
-    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
+    "id": "Q119",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
     "options": [
-      "60 m AGL",
+      "150 m från bebyggelse",
+      "50 m oavsett läge",
+      "Inga krav",
+      "30 m, eller 5 m i låghastighetsläge"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q120",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "SMHI:s satellitbild",
+      "Endast geostaketet",
+      "AIP SUP enbart",
+      "NOTAM för aktuellt område/tid"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q121",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Endast upphovsrätt",
+      "Ingen regel gäller utomhus",
+      "Endast spridningstillstånd"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q122",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att spara batteri",
+      "För att förbättra GNSS",
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q123",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Stänga av GNSS",
+      "Ignorera och starta"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q124",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Litar på geostaketet",
+      "Flyger högre för att inte synas",
+      "Ökar hastigheten i stället"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q125",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Hemförsäkring räcker alltid",
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Endast kommersiella uppdrag kräver det"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q126",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Högre GNSS‑noggrannhet",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Optimalt batteriklimat",
+      "Bättre propellergrepp"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q127",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Fortsätter eftersom du är under 120 m",
+      "Stänger av sändaren",
+      "Stiger för att synas bättre"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q128",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "150 m AGL",
+      "90 m AGL",
+      "200 m AGL",
+      "120 m AGL"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q129",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "150 m från bebyggelse",
+      "Inga krav",
+      "50 m oavsett läge",
+      "30 m, eller 5 m i låghastighetsläge"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q130",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "Endast geostaketet",
+      "NOTAM för aktuellt område/tid",
+      "AIP SUP enbart",
+      "SMHI:s satellitbild"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q131",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Endast upphovsrätt",
+      "Ingen regel gäller utomhus",
+      "Endast spridningstillstånd",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q132",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För att spara batteri",
+      "För att förbättra GNSS",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q133",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Stänga av GNSS",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Ignorera och starta"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q134",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Litar på geostaketet",
+      "Ökar hastigheten i stället",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Flyger högre för att inte synas"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q135",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Hemförsäkring räcker alltid",
+      "Gäller bara i A2",
+      "Endast kommersiella uppdrag kräver det"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q136",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Bättre propellergrepp",
+      "Optimalt batteriklimat",
+      "Högre GNSS‑noggrannhet"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q137",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Stänger av sändaren",
+      "Stiger för att synas bättre",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Fortsätter eftersom du är under 120 m"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q138",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "200 m AGL",
+      "90 m AGL",
+      "150 m AGL",
+      "120 m AGL"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q139",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "50 m oavsett läge",
+      "30 m, eller 5 m i låghastighetsläge",
+      "150 m från bebyggelse",
+      "Inga krav"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q140",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "NOTAM för aktuellt område/tid",
+      "SMHI:s satellitbild",
+      "AIP SUP enbart",
+      "Endast geostaketet"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q141",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Ingen regel gäller utomhus",
+      "Endast spridningstillstånd",
+      "Endast upphovsrätt"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q142",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För att spara batteri",
+      "För att förbättra GNSS",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q143",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Ignorera och starta",
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Stänga av GNSS",
+      "Flytta från störkällan och kalibrera vid behov"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q144",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Ökar hastigheten i stället",
+      "Flyger högre för att inte synas",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Litar på geostaketet"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q145",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Endast kommersiella uppdrag kräver det",
+      "Hemförsäkring räcker alltid",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Gäller bara i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q146",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Optimalt batteriklimat",
+      "Bättre propellergrepp",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Högre GNSS‑noggrannhet"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q147",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Fortsätter eftersom du är under 120 m",
+      "Stiger för att synas bättre",
+      "Stänger av sändaren",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q148",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "150 m AGL",
       "90 m AGL",
       "120 m AGL",
-      "150 m AGL"
+      "200 m AGL"
     ],
     "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q4_v5",
-    "topic": "A1A3",
-    "text": "Vad gäller för maxhöjd gäller normalt i öppen kategori?",
+    "id": "Q149",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
     "options": [
-      "60 m AGL",
-      "90 m AGL",
+      "30 m, eller 5 m i låghastighetsläge",
+      "50 m oavsett läge",
+      "Inga krav",
+      "150 m från bebyggelse"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q150",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "Endast geostaketet",
+      "SMHI:s satellitbild",
+      "AIP SUP enbart",
+      "NOTAM för aktuellt område/tid"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q151",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Endast upphovsrätt",
+      "Endast spridningstillstånd",
+      "Ingen regel gäller utomhus"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q152",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att spara batteri",
+      "För bättre bildstabilisering",
+      "För att förbättra GNSS",
+      "För att undvika kollision med hinder vid automatisk återflygning"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q153",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Stänga av GNSS",
+      "Ignorera och starta",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Kalibrera alltid inför varje flygning oavsett"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q154",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Flyger högre för att inte synas",
+      "Ökar hastigheten i stället",
+      "Litar på geostaketet"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q155",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Endast kommersiella uppdrag kräver det",
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Hemförsäkring räcker alltid"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q156",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Bättre propellergrepp",
+      "Högre GNSS‑noggrannhet",
+      "Optimalt batteriklimat",
+      "Försämrad sikt samt påverkan på sensorer/elektronik"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q157",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Stiger för att synas bättre",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Stänger av sändaren",
+      "Fortsätter eftersom du är under 120 m"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q158",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "200 m AGL",
       "120 m AGL",
+      "90 m AGL",
       "150 m AGL"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q159",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "30 m, eller 5 m i låghastighetsläge",
+      "150 m från bebyggelse",
+      "Inga krav",
+      "50 m oavsett läge"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q160",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "SMHI:s satellitbild",
+      "AIP SUP enbart",
+      "NOTAM för aktuellt område/tid",
+      "Endast geostaketet"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q161",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Endast spridningstillstånd",
+      "Endast upphovsrätt",
+      "Ingen regel gäller utomhus"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q162",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att spara batteri",
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För att förbättra GNSS",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q163",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Ignorera och starta",
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Stänga av GNSS",
+      "Flytta från störkällan och kalibrera vid behov"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q164",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Flyger högre för att inte synas",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Litar på geostaketet",
+      "Ökar hastigheten i stället"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q165",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Hemförsäkring räcker alltid",
+      "Endast kommersiella uppdrag kräver det",
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q166",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Bättre propellergrepp",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Högre GNSS‑noggrannhet",
+      "Optimalt batteriklimat"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q167",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Stiger för att synas bättre",
+      "Stänger av sändaren",
+      "Fortsätter eftersom du är under 120 m"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q168",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "120 m AGL",
+      "200 m AGL",
+      "90 m AGL",
+      "150 m AGL"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q169",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "50 m oavsett läge",
+      "30 m, eller 5 m i låghastighetsläge",
+      "150 m från bebyggelse",
+      "Inga krav"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q170",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "SMHI:s satellitbild",
+      "Endast geostaketet",
+      "AIP SUP enbart",
+      "NOTAM för aktuellt område/tid"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q171",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Endast spridningstillstånd",
+      "Endast upphovsrätt",
+      "Ingen regel gäller utomhus",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q172",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För bättre bildstabilisering",
+      "För att spara batteri",
+      "För att förbättra GNSS"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q173",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Flytta från störkällan och kalibrera vid behov",
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Ignorera och starta",
+      "Stänga av GNSS"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q174",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Flyger högre för att inte synas",
+      "Litar på geostaketet",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor",
+      "Ökar hastigheten i stället"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q175",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Gäller bara i A2",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Endast kommersiella uppdrag kräver det",
+      "Hemförsäkring räcker alltid"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q176",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Bättre propellergrepp",
+      "Högre GNSS‑noggrannhet",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Optimalt batteriklimat"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q177",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Stiger för att synas bättre",
+      "Stänger av sändaren",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Fortsätter eftersom du är under 120 m"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 5.3",
+    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
+  },
+  {
+    "id": "Q178",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
+    "options": [
+      "200 m AGL",
+      "150 m AGL",
+      "120 m AGL",
+      "90 m AGL"
     ],
     "correctIndex": 2,
     "ref": "Kap 3",
-    "expl": "Standardgränsen är 120 m AGL om inget annat anges."
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q5",
+    "id": "Q179",
     "topic": "A2",
-    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
     "options": [
-      "50 m",
-      "30 m (eller 5 m med låghastighetsläge)",
-      "150 m",
-      "Inga avståndskrav"
+      "Inga krav",
+      "150 m från bebyggelse",
+      "50 m oavsett läge",
+      "30 m, eller 5 m i låghastighetsläge"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "ref": "Kap 3.3 A2",
-    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
   },
   {
-    "id": "Q5_v1",
-    "topic": "A2",
-    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
-    "options": [
-      "50 m",
-      "30 m (eller 5 m med låghastighetsläge)",
-      "150 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q5_v2",
-    "topic": "A2",
-    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
-    "options": [
-      "50 m",
-      "30 m (eller 5 m med låghastighetsläge)",
-      "150 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q5_v3",
-    "topic": "A2",
-    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
-    "options": [
-      "50 m",
-      "30 m (eller 5 m med låghastighetsläge)",
-      "150 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q5_v4",
-    "topic": "A2",
-    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
-    "options": [
-      "50 m",
-      "30 m (eller 5 m med låghastighetsläge)",
-      "150 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q5_v5",
-    "topic": "A2",
-    "text": "Vilket säkerhetsavstånd gäller i A2 till människor?",
-    "options": [
-      "50 m",
-      "30 m (eller 5 m med låghastighetsläge)",
-      "150 m",
-      "Inga avståndskrav"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 3.3 A2",
-    "expl": "A2: 30 m, eller 5 m med låghastighetsläge."
-  },
-  {
-    "id": "Q6",
+    "id": "Q180",
     "topic": "ALL",
-    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
     "options": [
-      "För att videolänken annars stängs av",
-      "För att GPS störs",
-      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
-      "För att batteriet drar mer ström"
+      "Endast geostaketet",
+      "AIP SUP enbart",
+      "NOTAM för aktuellt område/tid",
+      "SMHI:s satellitbild"
     ],
     "correctIndex": 2,
-    "ref": "Kap 4.2",
-    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
   },
   {
-    "id": "Q6_v1",
+    "id": "Q181",
     "topic": "ALL",
-    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
     "options": [
-      "För att videolänken annars stängs av",
-      "För att GPS störs",
-      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
-      "För att batteriet drar mer ström"
+      "Ingen regel gäller utomhus",
+      "Endast upphovsrätt",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter",
+      "Endast spridningstillstånd"
     ],
     "correctIndex": 2,
-    "ref": "Kap 4.2",
-    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
   },
   {
-    "id": "Q6_v2",
+    "id": "Q182",
     "topic": "ALL",
-    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
     "options": [
-      "För att videolänken annars stängs av",
-      "För att GPS störs",
-      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
-      "För att batteriet drar mer ström"
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För bättre bildstabilisering",
+      "För att spara batteri",
+      "För att förbättra GNSS"
+    ],
+    "correctIndex": 0,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q183",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Flytta från störkällan och kalibrera vid behov",
+      "Ignorera och starta",
+      "Stänga av GNSS"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q184",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Flyger högre för att inte synas",
+      "Litar på geostaketet",
+      "Ökar hastigheten i stället",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q185",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Endast kommersiella uppdrag kräver det",
+      "Hemförsäkring räcker alltid",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Gäller bara i A2"
     ],
     "correctIndex": 2,
-    "ref": "Kap 4.2",
-    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
   },
   {
-    "id": "Q6_v3",
-    "topic": "ALL",
-    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "id": "Q186",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
     "options": [
-      "För att videolänken annars stängs av",
-      "För att GPS störs",
-      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
-      "För att batteriet drar mer ström"
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Optimalt batteriklimat",
+      "Bättre propellergrepp",
+      "Högre GNSS‑noggrannhet"
     ],
-    "correctIndex": 2,
-    "ref": "Kap 4.2",
-    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
+    "correctIndex": 0,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
   },
   {
-    "id": "Q6_v4",
+    "id": "Q187",
     "topic": "ALL",
-    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
     "options": [
-      "För att videolänken annars stängs av",
-      "För att GPS störs",
-      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
-      "För att batteriet drar mer ström"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 4.2",
-    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
-  },
-  {
-    "id": "Q6_v5",
-    "topic": "ALL",
-    "text": "Varför gäller nolltolerans mot alkohol vid drönarflygning?",
-    "options": [
-      "För att videolänken annars stängs av",
-      "För att GPS störs",
-      "För att omdöme, reaktionsförmåga och riskbedömning försämras",
-      "För att batteriet drar mer ström"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 4.2",
-    "expl": "Även små mängder alkohol försämrar omdöme och reaktion."
-  },
-  {
-    "id": "Q7",
-    "topic": "ALL",
-    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
-    "options": [
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Sämre mörkerseende"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
-  },
-  {
-    "id": "Q7_v1",
-    "topic": "ALL",
-    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
-    "options": [
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Sämre mörkerseende"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
-  },
-  {
-    "id": "Q7_v2",
-    "topic": "ALL",
-    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
-    "options": [
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Sämre mörkerseende"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
-  },
-  {
-    "id": "Q7_v3",
-    "topic": "ALL",
-    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
-    "options": [
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Sämre mörkerseende"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
-  },
-  {
-    "id": "Q7_v4",
-    "topic": "ALL",
-    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
-    "options": [
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Sämre mörkerseende"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
-  },
-  {
-    "id": "Q7_v5",
-    "topic": "ALL",
-    "text": "Vilket är ett typiskt tecken på trötthet vid flygning?",
-    "options": [
-      "Ökat blodtryck",
-      "Mikrosömn",
-      "Ökad handsvett",
-      "Sämre mörkerseende"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 4.4",
-    "expl": "Mikrosömn kan uppstå plötsligt och är farligt vid flygning."
-  },
-  {
-    "id": "Q8",
-    "topic": "ALL",
-    "text": "Vilken åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
-    "options": [
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen"
+      "Fortsätter eftersom du är under 120 m",
+      "Stiger för att synas bättre",
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Stänger av sändaren"
     ],
     "correctIndex": 2,
     "ref": "Kap 5.3",
     "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q8_v1",
-    "topic": "ALL",
-    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
+    "id": "Q188",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
     "options": [
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen"
+      "150 m AGL",
+      "90 m AGL",
+      "120 m AGL",
+      "200 m AGL"
     ],
     "correctIndex": 2,
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
+  },
+  {
+    "id": "Q189",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
+    "options": [
+      "Inga krav",
+      "150 m från bebyggelse",
+      "50 m oavsett läge",
+      "30 m, eller 5 m i låghastighetsläge"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
+  },
+  {
+    "id": "Q190",
+    "topic": "ALL",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
+    "options": [
+      "Endast geostaketet",
+      "NOTAM för aktuellt område/tid",
+      "AIP SUP enbart",
+      "SMHI:s satellitbild"
+    ],
+    "correctIndex": 1,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
+  },
+  {
+    "id": "Q191",
+    "topic": "ALL",
+    "text": "Du filmar en byggarbetsplats där personalen är identifierbar. Vilken regel måste beaktas?",
+    "options": [
+      "Endast spridningstillstånd",
+      "Ingen regel gäller utomhus",
+      "Endast upphovsrätt",
+      "GDPR – välj rätt laglig grund och minimera personuppgifter"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 7.1",
+    "expl": "Vid identifierbara personer gäller GDPR – välj rätt grund och minimera."
+  },
+  {
+    "id": "Q192",
+    "topic": "ALL",
+    "text": "Vilket är huvudskälet till att ange RTH‑höjd över högsta hinder?",
+    "options": [
+      "För att spara batteri",
+      "För att förbättra GNSS",
+      "För att undvika kollision med hinder vid automatisk återflygning",
+      "För bättre bildstabilisering"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 6.2",
+    "expl": "RTH kräver lämplig hemhöjd över hinder."
+  },
+  {
+    "id": "Q193",
+    "topic": "ALL",
+    "text": "Du byter fält till en plats med mycket metall i marken och får kompassvarning. Vad är lämpligt?",
+    "options": [
+      "Kalibrera alltid inför varje flygning oavsett",
+      "Stänga av GNSS",
+      "Ignorera och starta",
+      "Flytta från störkällan och kalibrera vid behov"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 5.2",
+    "expl": "Kalibrera kompass/IMU vid behov/indikation, inte slentrian."
+  },
+  {
+    "id": "Q194",
+    "topic": "A2",
+    "text": "Du ska filma ett litet event med spridda besökare. Hur minskar du markrisken enligt 1:1‑tänk?",
+    "options": [
+      "Litar på geostaketet",
+      "Ökar hastigheten i stället",
+      "Flyger högre för att inte synas",
+      "Väljer höjd/avstånd så att en möjlig fallbana inte korsar människor"
+    ],
+    "correctIndex": 3,
+    "ref": "Kap 12.3",
+    "expl": "1:1‑tänk: anpassa höjd/avstånd så haveri inte passerar människor."
+  },
+  {
+    "id": "Q195",
+    "topic": "ALL",
+    "text": "Vilket påstående om försäkring stämmer?",
+    "options": [
+      "Hemförsäkring räcker alltid",
+      "Endast kommersiella uppdrag kräver det",
+      "Drönare >20 kg kräver ansvarsförsäkring",
+      "Gäller bara i A2"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 8",
+    "expl": "Över 20 kg krävs ansvarsförsäkring (rekommenderas annars)."
+  },
+  {
+    "id": "Q196",
+    "topic": "A2",
+    "text": "Väderprognosen anger dimbankar och lätt duggregn. Vad är den största risken för flygningen?",
+    "options": [
+      "Optimalt batteriklimat",
+      "Högre GNSS‑noggrannhet",
+      "Försämrad sikt samt påverkan på sensorer/elektronik",
+      "Bättre propellergrepp"
+    ],
+    "correctIndex": 2,
+    "ref": "Kap 10.2",
+    "expl": "Dimma/nederbörd påverkar sikt, sensorer och elektronik."
+  },
+  {
+    "id": "Q197",
+    "topic": "ALL",
+    "text": "Du flyger över ett fält när du hör ett bemannat luftfartyg närma sig bakom trädlinjen. Vad gör du?",
+    "options": [
+      "Avbryter/landar på säkert ställe för att undanröja konflikt",
+      "Stänger av sändaren",
+      "Fortsätter eftersom du är under 120 m",
+      "Stiger för att synas bättre"
+    ],
+    "correctIndex": 0,
     "ref": "Kap 5.3",
     "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
   },
   {
-    "id": "Q8_v2",
-    "topic": "ALL",
-    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
+    "id": "Q198",
+    "topic": "A1A3",
+    "text": "Du planerar en fotoflygning utanför tätort. Vilken högsta höjd får du normalt inte överskrida?",
     "options": [
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
-  },
-  {
-    "id": "Q8_v3",
-    "topic": "ALL",
-    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
-    "options": [
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
-  },
-  {
-    "id": "Q8_v4",
-    "topic": "ALL",
-    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
-    "options": [
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
-  },
-  {
-    "id": "Q8_v5",
-    "topic": "ALL",
-    "text": "Vad gäller för åtgärd ska du vidta om ett bemannat luftfartyg närmar sig?",
-    "options": [
-      "Stig till maxhöjd",
-      "Fortsätt som vanligt",
-      "Väj och landa bort från konfliktytan",
-      "Stäng av fjärrkontrollen"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 5.3",
-    "expl": "Du är väjningsskyldig mot bemannade luftfartyg."
-  },
-  {
-    "id": "Q9",
-    "topic": "ALL",
-    "text": "Vad används Return-To-Home (RTH) till?",
-    "options": [
-      "För att stänga av GNSS",
-      "För att drönaren ska återvända vid länkbortfall",
-      "För att aktivera hyperlapse",
-      "För att kalibrera propellrar"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända automatiskt."
-  },
-  {
-    "id": "Q9_v1",
-    "topic": "ALL",
-    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
-    "options": [
-      "För att stänga av GNSS",
-      "För att drönaren ska återvända vid länkbortfall",
-      "För att aktivera hyperlapse",
-      "För att kalibrera propellrar"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända automatiskt."
-  },
-  {
-    "id": "Q9_v2",
-    "topic": "ALL",
-    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
-    "options": [
-      "För att stänga av GNSS",
-      "För att drönaren ska återvända vid länkbortfall",
-      "För att aktivera hyperlapse",
-      "För att kalibrera propellrar"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända automatiskt."
-  },
-  {
-    "id": "Q9_v3",
-    "topic": "ALL",
-    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
-    "options": [
-      "För att stänga av GNSS",
-      "För att drönaren ska återvända vid länkbortfall",
-      "För att aktivera hyperlapse",
-      "För att kalibrera propellrar"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända automatiskt."
-  },
-  {
-    "id": "Q9_v4",
-    "topic": "ALL",
-    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
-    "options": [
-      "För att stänga av GNSS",
-      "För att drönaren ska återvända vid länkbortfall",
-      "För att aktivera hyperlapse",
-      "För att kalibrera propellrar"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända automatiskt."
-  },
-  {
-    "id": "Q9_v5",
-    "topic": "ALL",
-    "text": "Vilket påstående om används Return-To-Home (RTH) till?",
-    "options": [
-      "För att stänga av GNSS",
-      "För att drönaren ska återvända vid länkbortfall",
-      "För att aktivera hyperlapse",
-      "För att kalibrera propellrar"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 6.2",
-    "expl": "RTH hjälper drönaren återvända automatiskt."
-  },
-  {
-    "id": "Q10",
-    "topic": "ALL",
-    "text": "När kan spridning av drönarbilder kräva tillstånd?",
-    "options": [
-      "Vid skyddsvärd geografisk information",
-      "När horisonten saknas",
-      "I privat hem",
-      "Aldrig"
+      "120 m AGL",
+      "90 m AGL",
+      "150 m AGL",
+      "200 m AGL"
     ],
     "correctIndex": 0,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
+    "ref": "Kap 3",
+    "expl": "Maxhöjd i öppen kategori är 120 m AGL om inget annat anges."
   },
   {
-    "id": "Q10_v1",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
+    "id": "Q199",
+    "topic": "A2",
+    "text": "Du ska filma nära en gångväg med få förbipasserande. Vilket minsta avstånd till människor gäller i A2?",
     "options": [
-      "Vid skyddsvärd geografisk information",
-      "När horisonten saknas",
-      "I privat hem",
-      "Aldrig"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
-  },
-  {
-    "id": "Q10_v2",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
-    "options": [
-      "Vid skyddsvärd geografisk information",
-      "När horisonten saknas",
-      "I privat hem",
-      "Aldrig"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
-  },
-  {
-    "id": "Q10_v3",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
-    "options": [
-      "Vid skyddsvärd geografisk information",
-      "När horisonten saknas",
-      "I privat hem",
-      "Aldrig"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
-  },
-  {
-    "id": "Q10_v4",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
-    "options": [
-      "Vid skyddsvärd geografisk information",
-      "När horisonten saknas",
-      "I privat hem",
-      "Aldrig"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
-  },
-  {
-    "id": "Q10_v5",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden kan spridning av drönarbilder kräva tillstånd?",
-    "options": [
-      "Vid skyddsvärd geografisk information",
-      "När horisonten saknas",
-      "I privat hem",
-      "Aldrig"
-    ],
-    "correctIndex": 0,
-    "ref": "Kap 7.2",
-    "expl": "Spridningstillstånd kan krävas för skyddsvärda områden."
-  },
-  {
-    "id": "Q11",
-    "topic": "ALL",
-    "text": "När är ansvarsförsäkring ett lagkrav för drönare?",
-    "options": [
-      "Aldrig i Sverige",
-      "Endast under 250 g",
-      "För drönare över 20 kg",
-      "För alla drönare i A2"
+      "50 m oavsett läge",
+      "150 m från bebyggelse",
+      "30 m, eller 5 m i låghastighetsläge",
+      "Inga krav"
     ],
     "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": ">20 kg = krav. Rekommenderas även under."
+    "ref": "Kap 3.3 A2",
+    "expl": "A2 kräver 30 m (5 m med låghastighetsläge) till människor."
   },
   {
-    "id": "Q11_v1",
+    "id": "Q200",
     "topic": "ALL",
-    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
+    "text": "Kvällen före flygning vill du säkerställa att inga temporära begränsningar påverkar området. Vad kontrollerar du?",
     "options": [
-      "Aldrig i Sverige",
-      "Endast under 250 g",
-      "För drönare över 20 kg",
-      "För alla drönare i A2"
+      "AIP SUP enbart",
+      "SMHI:s satellitbild",
+      "Endast geostaketet",
+      "NOTAM för aktuellt område/tid"
     ],
-    "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": ">20 kg = krav. Rekommenderas även under."
-  },
-  {
-    "id": "Q11_v2",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
-    "options": [
-      "Aldrig i Sverige",
-      "Endast under 250 g",
-      "För drönare över 20 kg",
-      "För alla drönare i A2"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": ">20 kg = krav. Rekommenderas även under."
-  },
-  {
-    "id": "Q11_v3",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
-    "options": [
-      "Aldrig i Sverige",
-      "Endast under 250 g",
-      "För drönare över 20 kg",
-      "För alla drönare i A2"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": ">20 kg = krav. Rekommenderas även under."
-  },
-  {
-    "id": "Q11_v4",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
-    "options": [
-      "Aldrig i Sverige",
-      "Endast under 250 g",
-      "För drönare över 20 kg",
-      "För alla drönare i A2"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": ">20 kg = krav. Rekommenderas även under."
-  },
-  {
-    "id": "Q11_v5",
-    "topic": "ALL",
-    "text": "Under vilka förhållanden är ansvarsförsäkring ett lagkrav för drönare?",
-    "options": [
-      "Aldrig i Sverige",
-      "Endast under 250 g",
-      "För drönare över 20 kg",
-      "För alla drönare i A2"
-    ],
-    "correctIndex": 2,
-    "ref": "Kap 8",
-    "expl": ">20 kg = krav. Rekommenderas även under."
-  },
-  {
-    "id": "Q12",
-    "topic": "A2",
-    "text": "Hur påverkar stark vind drönarflygning?",
-    "options": [
-      "Kortare bromssträcka",
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Ingen påverkan",
-      "Alltid stabilare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Vind ger drift och ökad effektförbrukning."
-  },
-  {
-    "id": "Q12_v1",
-    "topic": "A2",
-    "text": "På vilket sätt påverkar stark vind drönarflygning?",
-    "options": [
-      "Kortare bromssträcka",
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Ingen påverkan",
-      "Alltid stabilare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Vind ger drift och ökad effektförbrukning."
-  },
-  {
-    "id": "Q12_v2",
-    "topic": "A2",
-    "text": "På vilket sätt påverkar stark vind drönarflygning?",
-    "options": [
-      "Kortare bromssträcka",
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Ingen påverkan",
-      "Alltid stabilare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Vind ger drift och ökad effektförbrukning."
-  },
-  {
-    "id": "Q12_v3",
-    "topic": "A2",
-    "text": "På vilket sätt påverkar stark vind drönarflygning?",
-    "options": [
-      "Kortare bromssträcka",
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Ingen påverkan",
-      "Alltid stabilare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Vind ger drift och ökad effektförbrukning."
-  },
-  {
-    "id": "Q12_v4",
-    "topic": "A2",
-    "text": "På vilket sätt påverkar stark vind drönarflygning?",
-    "options": [
-      "Kortare bromssträcka",
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Ingen påverkan",
-      "Alltid stabilare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Vind ger drift och ökad effektförbrukning."
-  },
-  {
-    "id": "Q12_v5",
-    "topic": "A2",
-    "text": "På vilket sätt påverkar stark vind drönarflygning?",
-    "options": [
-      "Kortare bromssträcka",
-      "Längre bromssträcka, drift och högre batteriförbrukning",
-      "Ingen påverkan",
-      "Alltid stabilare"
-    ],
-    "correctIndex": 1,
-    "ref": "Kap 10.1",
-    "expl": "Vind ger drift och ökad effektförbrukning."
+    "correctIndex": 3,
+    "ref": "Kap 2.3 NOTAM",
+    "expl": "NOTAM varnar om tillfälliga förändringar/restriktioner."
   }
 ]
