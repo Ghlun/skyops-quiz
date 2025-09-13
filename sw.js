@@ -1,8 +1,13 @@
 
-const CACHE = 'skyops-quiz-v2';
+const CACHE = 'skyops-quiz-v4'; // bump version
+
 const ASSETS = [
-  './', './index.html', './manifest.json', './nordic-skyops-logo.png',
-  './icons/192.png', './icons/512.png',
+  './',
+  './index.html',
+  './manifest.json',
+  './nordic-skyops-logo.png',
+  './icons/icon-192-v2.png',
+  './icons/icon-512-v2.png',
   './questions-250.json'
 ];
 
