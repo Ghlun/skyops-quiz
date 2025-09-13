@@ -6,7 +6,7 @@
   "start_url": "/skyops-quiz/?source=pwa",
   "scope": "/skyops-quiz/",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui", "window-controls-overlay"],
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "lang": "sv-SE",
@@ -15,30 +15,16 @@
   "categories": ["education", "productivity"],
   "icons": [
     {
-      "src": "icons/192.png",
+      "src": "icons/icon-192-v2.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/512.png",
+      "src": "icons/icon-512-v2.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshots/home-1080x1920.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "label": "Startsida – välj ämne och provlängd"
-    },
-    {
-      "src": "screenshots/question-1080x1920.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "label": "Fråga med timer och förklaring"
     }
   ],
   "shortcuts": [
